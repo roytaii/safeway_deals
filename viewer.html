@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Deals Viewer</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    select { margin-bottom: 1rem; }
+    .tabs { margin-bottom: 1rem; }
+    .tabs button { margin-right: 0.5rem; }
+    ul { list-style: none; padding: 0; margin: 0; }
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #ccc;
+    }
+    .name { flex: 1; }
+    .price { margin-left: 1rem; white-space: nowrap; }
+  </style>
+</head>
+<body>
+
+<h2>Deals Viewer</h2>
+
+<div class="tabs">
+  <button onclick="switchTab('active', this)"><b>Active</b></button>
+  <button onclick="switchTab('expired', this)">Expired</button>
+  <button onclick="switchTab('all', this)">All</button>
+</div>
+
+<select id="category-filter" onchange="render()">
+  <option value="">All Categories</option>
+</select>
+
+<ul id="list"></ul>
+
+<script>
+  let data = { active: [], expired: [] };
+  let currentTab = 'active';
+
+  fetch('deals.json')
+    .then(r => r.json())
+    .then(json => {
+      data = json;
+      const all = [...data.active, ...data.expired];
+      const cats = [...new Set(all.map(i => i.category).filter(Boolean))].sort();
+      const sel = document.getElementById('category-filter');
+      cats.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c; opt.textContent = c;
+        sel.appendChild(opt);
+      });
+      render();
+    })
+    .catch(() => {
+      document.getElementById('list').innerHTML = '<li>Could not load deals.json. Run convert.py first.</li>';
+    });
+
+  function switchTab(tab, btn) {
+    currentTab = tab;
+    document.querySelectorAll('.tabs button').forEach(b => b.innerHTML = b.innerHTML.replace(/<\/?b>/g, ''));
+    btn.innerHTML = `<b>${btn.textContent}</b>`;
+    render();
+  }
+
+  function formatPrice(item) {
+    return [item.pre_price_text, item.sale_price, item.post_price_text].filter(Boolean).join(' ') || item.regular_price || '—';
+  }
+
+  function render() {
+    const cat = document.getElementById('category-filter').value;
+    let items = currentTab === 'all' ? [...data.active, ...data.expired].sort((a, b) => a.name.localeCompare(b.name)) : data[currentTab] || [];
+    if (cat) items = items.filter(i => i.category === cat);
+    document.getElementById('list').innerHTML = items.map(item => `
+        <li>
+        <span class="name">
+            ${item.name || '—'}
+            ${item.sale_desc ? `<br><small style="color:#888">${item.sale_desc}</small>` : ''}
+        </span>
+        <span class="price">${formatPrice(item)}</span>
+        </li>
+    `).join('');
+  }
+</script>
+</body>
+</html>
