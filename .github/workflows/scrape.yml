@@ -1,0 +1,40 @@
+name: Scrape Safeway
+
+on:
+  schedule:
+    - cron: '0 10 * * 3'  # every Wednesday at 10am UTC
+  workflow_dispatch:        # can trigger it manually from GitHub too
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests pandas google-genai python-dotenv
+
+      - name: Run scraper
+        env:
+          FLIPP_TOKEN: ${{ secrets.FLIPP_TOKEN }}
+          FLIPP_POSTAL: ${{ secrets.FLIPP_POSTAL }}
+          FLIPP_STORE: ${{ secrets.FLIPP_STORE }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+        run: python scrape_safeway.py
+
+      - name: Run converter
+        run: python safeway_visualization.py
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add deals.json safeway_prices.csv seen_publications.txt
+          git diff --staged --quiet || git commit -m "weekly update"
+          git push
