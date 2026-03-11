@@ -4,57 +4,200 @@
   <meta charset="UTF-8"/>
   <title>Deals Viewer</title>
   <style>
-    body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
-    .controls { display: flex; gap: 1.5rem; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; }
-    ul { list-style: none; padding: 0; margin: 0; }
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      background: #f5f4f0;
+      color: #1a1a1a;
+      max-width: 860px;
+      margin: 2.5rem auto;
+      padding: 0 1.25rem;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+    }
+
+    /* Status toggles */
+    .status-row {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 0.875rem;
+    }
+
+    .status-btn {
+      border: 1.5px solid #d0cfc9;
+      background: #fff;
+      border-radius: 999px;
+      padding: 0.3rem 0.9rem;
+      font-size: 0.82rem;
+      font-family: inherit;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+      color: #666;
+    }
+    .status-btn.on { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+
+    /* Category chips */
+    .chip-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: #999;
+      margin-bottom: 0.45rem;
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .chip {
+      border: 1.5px solid #d0cfc9;
+      background: #fff;
+      border-radius: 999px;
+      padding: 0.32rem 0.85rem;
+      font-size: 0.82rem;
+      font-family: inherit;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+      color: #444;
+      user-select: none;
+    }
+    .chip:hover { border-color: #aaa; }
+    .chip.active {
+      background: #2d6a4f;
+      color: #fff;
+      border-color: #2d6a4f;
+    }
+    .chip.all-chip.active {
+      background: #1a1a1a;
+      border-color: #1a1a1a;
+    }
+
+    /* List */
+    ul { list-style: none; }
+
     li {
       display: flex;
       justify-content: space-between;
-      padding: 0.5rem 0;
-      border-bottom: 1px solid #ccc;
+      align-items: flex-start;
+      padding: 0.65rem 0;
+      border-bottom: 1px solid #e6e5e0;
+      gap: 1rem;
     }
-    .name { flex: 1; }
-    .right { margin-left: 1rem; text-align: right; white-space: nowrap; }
-    .expiry { font-size: 0.75rem; color: #888; }
+
+    .name { flex: 1; font-size: 0.93rem; line-height: 1.4; }
+    .sale-desc { font-size: 0.77rem; color: #888; margin-top: 0.15rem; }
+
+    .right { text-align: right; white-space: nowrap; }
+    .price { font-family: 'Lato', monospace; font-size: 0.9rem; font-weight: 500; }
+    .expiry { font-size: 0.72rem; color: #aaa; margin-top: 0.15rem; }
+
+    .count {
+      font-size: 0.78rem;
+      color: #999;
+      margin-bottom: 0.5rem;
+      font-variant-numeric: tabular-nums;
+    }
   </style>
 </head>
 <body>
 
 <h2>Deals Viewer</h2>
 
-<div class="controls">
-  <label><input type="checkbox" id="show-active" checked onchange="render()"> Active</label>
-  <label><input type="checkbox" id="show-expired" onchange="render()"> Expired</label>
-  <select id="category-filter" onchange="render()">
-    <option value="">All Categories</option>
-  </select>
+<div class="status-row">
+  <button class="status-btn on" id="btn-active" onclick="toggleStatus('active')">Active</button>
+  <button class="status-btn" id="btn-expired" onclick="toggleStatus('expired')">Expired</button>
 </div>
 
+<div class="chip-label">Category</div>
+<div class="chip-row" id="chip-row">
+  <button class="chip all-chip active" data-cat="__all__" onclick="chipClick(this)">All</button>
+</div>
+
+<div class="count" id="count"></div>
 <ul id="list"></ul>
 
 <script>
   let data = { active: [], expired: [] };
+  const status = { active: true, expired: false };
+  const selectedCats = new Set(['__all__']);
 
   fetch('deals.json')
     .then(r => r.json())
     .then(json => {
       data = json;
-      const all = [...data.active, ...data.expired];
-      const cats = [...new Set(all.map(i => i.category).filter(Boolean))].sort();
-      const sel = document.getElementById('category-filter');
-      cats.forEach(c => {
-        const opt = document.createElement('option');
-        opt.value = c; opt.textContent = c;
-        sel.appendChild(opt);
-      });
+      buildChips();
       render();
     })
     .catch(() => {
-      document.getElementById('list').innerHTML = '<li>Could not load deals.json. Run safeway_visualization.py first.</li>';
+      document.getElementById('list').innerHTML =
+        '<li><span class="name">Could not load deals.json. Run safeway_visualization.py first.</span></li>';
     });
 
+  function buildChips() {
+    const all = [...data.active, ...data.expired];
+    const cats = [...new Set(all.map(i => i.category).filter(Boolean))].sort();
+    const row = document.getElementById('chip-row');
+    cats.forEach(c => {
+      const btn = document.createElement('button');
+      btn.className = 'chip';
+      btn.dataset.cat = c;
+      btn.textContent = c;
+      btn.onclick = () => chipClick(btn);
+      row.appendChild(btn);
+    });
+  }
+
+  function chipClick(btn) {
+    const cat = btn.dataset.cat;
+
+    if (cat === '__all__') {
+      // All chip - clear everything, activate only All
+      selectedCats.clear();
+      selectedCats.add('__all__');
+    } else {
+      // Remove All if it was selected
+      selectedCats.delete('__all__');
+      // Toggle this category
+      if (selectedCats.has(cat)) {
+        selectedCats.delete(cat);
+        // If nothing left, fall back to All
+        if (selectedCats.size === 0) selectedCats.add('__all__');
+      } else {
+        selectedCats.add(cat);
+      }
+    }
+
+    // Sync visual state
+    document.querySelectorAll('.chip').forEach(b => {
+      b.classList.toggle('active', selectedCats.has(b.dataset.cat));
+    });
+
+    render();
+  }
+
+  function toggleStatus(which) {
+    status[which] = !status[which];
+    document.getElementById(`btn-${which}`).classList.toggle('on', status[which]);
+    render();
+  }
+
   function formatPrice(item) {
-    return [item.pre_price_text, item.sale_price, item.post_price_text].filter(Boolean).join(' ') || item.regular_price || '—';
+    return [item.pre_price_text, item.sale_price, item.post_price_text]
+      .filter(Boolean).join(' ') || item.regular_price || '—';
   }
 
   function sortAlpha(arr) {
@@ -62,34 +205,31 @@
   }
 
   function render() {
-    const showActive  = document.getElementById('show-active').checked;
-    const showExpired = document.getElementById('show-expired').checked;
-    const cat = document.getElementById('category-filter').value;
+    let items = [
+      ...(status.active  ? sortAlpha(data.active)  : []),
+      ...(status.expired ? sortAlpha(data.expired) : []),
+    ];
 
-    let active  = showActive  ? sortAlpha(data.active)  : [];
-    let expired = showExpired ? sortAlpha(data.expired) : [];
-
-    if (cat) {
-      active  = active.filter(i => i.category === cat);
-      expired = expired.filter(i => i.category === cat);
+    if (!selectedCats.has('__all__')) {
+      items = items.filter(i => selectedCats.has(i.category));
     }
 
-    const items = [...active, ...expired];
+    const count = document.getElementById('count');
+    count.textContent = items.length ? `${items.length} deal${items.length !== 1 ? 's' : ''}` : '';
 
     document.getElementById('list').innerHTML = items.length
       ? items.map(item => `
           <li>
             <span class="name">
               ${item.name || '—'}
-              ${item.sale_desc ? `<br><small style="color:#888">${item.sale_desc}</small>` : ''}
+              ${item.sale_desc ? `<div class="sale-desc">${item.sale_desc}</div>` : ''}
             </span>
             <span class="right">
-              <div>${formatPrice(item)}</div>
+              <div class="price">${formatPrice(item)}</div>
               <div class="expiry">expires ${item.end_date}</div>
             </span>
-          </li>
-        `).join('')
-      : '<li>No items found.</li>';
+          </li>`).join('')
+      : '<li><span class="name" style="color:#aaa">No items found.</span></li>';
   }
 </script>
 </body>

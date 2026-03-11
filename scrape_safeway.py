@@ -112,21 +112,33 @@ if "category" not in df.columns:
 
 client = genai.Client(api_key=os.getenv("GEMINI_KEY"))
 CATEGORIES = [
-    "Meat & Seafood", "Dairy", "Produce", "Bakery", "Flowers",
-    "Snacks", "Beverages", "Frozen", "Pantry", "Deli", "Other"
+    # Food Departments
+    "Produce",
+    "Meat & Seafood",
+    "Dairy & Eggs",
+    "Bakery",
+    "Deli & Prepared Foods",
+    "Frozen",
+    "Pantry",
+    "Snacks",
+    "Beverages", 
+    # Non-Food
+    "Health & Wellness",
+    "Personal Care",
+    "Household",
+    # Other
+    "Floral",
+    "Other"
 ]
 
-def categorize_batch(names, batch_size=50):
-    results = []
-    idx = 0
-    for i in range(0, len(names), batch_size):
-        batch = names[i:i+batch_size]
-        idx += batch_size
-        print(f'Categorizing {min(idx,len(names))} / {len(names)}')
+def categorize_batch(df, uncategorized, batch_size=50):
+    for i in range(0, len(uncategorized), batch_size):
+        batch = uncategorized.iloc[i:i+batch_size]
+        print(f'Categorizing {min(i+batch_size, len(uncategorized))} / {len(uncategorized)}')
         prompt = f"""Categorize each grocery item into one of: {CATEGORIES}
         
         Items:
-        {chr(10).join(f"{j+1}. {name}" for j, name in enumerate(batch))}
+        {chr(10).join(f"{j+1}. {name}" for j, name in enumerate(batch["name"]))}
 
         Respond with only a numbered list of category names matching the order above.
         Example format:
@@ -134,24 +146,23 @@ def categorize_batch(names, batch_size=50):
         2. Meat & Seafood
         """
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite",
+            model="gemini-3.1-flash-lite-preview",
             contents=prompt
         )
 
-        # Parse the numbered response
         lines = [
             l.split(". ", 1)[-1].strip()
             for l in response.text.strip().split("\n")
             if l.strip() and l.strip()[0].isdigit()
         ]
 
-        # Fallback if mismatch in returned lines
         if len(lines) != len(batch):
             print(f"  ⚠️ Warning: expected {len(batch)} results, got {len(lines)} — filling remainder with 'Other'")
             lines += ["Other"] * (len(batch) - len(lines))
 
-        results.extend(lines)
-    return results
+        df.loc[batch.index, "category"] = lines
+        df.to_csv("safeway_prices.csv", index=False)
+        time.sleep(1)
 
 # Only process uncategorized rows
 uncategorized = df[df["category"].isna()]
@@ -160,7 +171,5 @@ if uncategorized.empty:
     print("All items already categorized, skipping API call.")
 else:
     print(f"Categorizing {len(uncategorized)} items...")
-    categories = categorize_batch(uncategorized["name"].tolist())
-    df.loc[uncategorized.index, "category"] = categories
-    df.to_csv("safeway_prices.csv", index=False)
-    print(f"Done. Categorized {len(uncategorized)} items.")
+    categorize_batch(df, uncategorized)
+    print(f"Done.")
