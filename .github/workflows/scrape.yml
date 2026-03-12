@@ -5,6 +5,9 @@ on:
     - cron: '0 10 * * 3'  # every Wednesday at 10am UTC
   workflow_dispatch:        # can trigger it manually from GitHub too
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
