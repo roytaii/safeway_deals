@@ -1,0 +1,777 @@
+timestamp,id,name,sale_desc,SKU,pre_price_text,sale_price,post_price_text,regular_price,brand,start_date,end_date,category
+2026-02-16T16:17:12.145788,991628929,Chicken Tenders Original or Nashville Hot. BBQ Rib Tips Available in the Deli. Macaroni and Cheese Available Hot in the Deli.,,,,5.0,lb member price,,,2026-02-13,2026-02-13,Deli & Prepared Foods
+2026-02-16T16:17:12.435868,991628961,Coca-Cola products,"Buy $25 of participating products, SAVE $5 with for U Plus be automatically entered for a chance to SCORE A TRIP TO A FIFA WORLD CUP 26 MATCH",,,,,,,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:12.743278,991628984,GT's Kombucha,EARN 2X POINTS,,2 for,6.0,member price,,GT's Kombucha,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:13.034184,993108488,Save up to 20% weekly,,,,,,,,2026-02-11,2026-02-17,Other
+2026-02-16T16:17:13.329873,991628350,Vlasic Pickles 16-oz. Wish-Bone Salad Dressing 15-oz. Wesson Cooking Oil 40-oz.,,,2 for,5.0,member price,,Vlasic | Wish-Bone | Wesson,2026-02-13,2026-02-13,Pantry
+2026-02-16T16:17:13.831707,991628316,Te Quiero Mucho Bouquet,,,,16.99,,,,2026-02-11,2026-02-17,Floral
+2026-02-16T16:17:14.134465,991628290,Overjoyed™ Boutique Chic Rose Bouquet,,,,39.99,,,Overjoyed™,2026-02-11,2026-02-17,Floral
+2026-02-16T16:17:14.443570,991628310,Touch of Fragrant Rose Bouquet,,,,29.99,,,,2026-02-11,2026-02-17,Floral
+2026-02-16T16:17:14.738271,991628294,Overjoyed™ Boutique Valentine Bear Bundle,,,,54.99,,,,2026-02-11,2026-02-17,Floral
+2026-02-16T16:17:15.020304,991628340,Sara Lee Bagels or Oroweat English Muffins,,,2 for,5.0,member price,,Sara Lee | Oroweat,2026-02-13,2026-02-13,Bakery
+2026-02-16T16:17:15.312960,991628343,Cheesecake,,,,5.0,ea member price,,,2026-02-13,2026-02-13,Bakery
+2026-02-16T16:17:15.616083,991628357,Crystal Geyser Alpine Spring Water,,,,5.0,ea member price,,Crystal Geyser,2026-02-13,2026-02-13,Beverages
+2026-02-16T16:17:15.913489,991628314,"La Marca, Decoy or Kim Crawford",,,,11.99,ea member price when you buy 6 or more,,La Marca | Decoy | Kim Crawford,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:16.211166,991628322,Fresh Sushi Made Fresh Daily SPAM Musubi 2 - ct,,,,5.0,ea member price,,,2026-02-13,2026-02-13,Deli & Prepared Foods
+2026-02-16T16:17:16.498256,991628359,Lucerne® Sliced Cheese,,,2 for,5.0,member price,,Lucerne®,2026-02-13,2026-02-13,Dairy & Eggs
+2026-02-16T16:17:16.777214,991628342,Marie's Salad Dressing O Organics® Salad Blend,,,2 for,5.0,member price,,Marie's,2026-02-13,2026-02-13,Produce
+2026-02-16T16:17:17.091085,991628356,Value Corner® Bath Tissue 12-Rolls. Paper Towels 6-Rolls.,,,,5.0,ea member price,,Value Corner®,2026-02-13,2026-02-13,Household
+2026-02-16T16:17:17.395489,991628362,Miss Vickie's Chips 8-oz. Fritos 9.25 to 10-oz,,,2 for,5.0,member price,,Miss Vickie's | Fritos,2026-02-13,2026-02-13,Snacks
+2026-02-16T16:17:17.680510,991628397,"Chobani Greek, Less Sugar or Zero Sugar Yogurt",,,10 for,10.0,member price,,Chobani,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:17:17.983340,991628402,Dave's Killer Thin-Sliced Bread 20.5-oz. English Muffins or Bagels 13.2 to 16.75-oz. Jumbo Cookies 8-ct. Fresh Baked,,,,4.99,member price,,Dave's Killer,2026-02-11,2026-02-17,Bakery
+2026-02-16T16:17:18.253271,991628405,"Lays, Tostitos, Doritos or Baked Chips",BUY 2 GET 2 FREE Member Price When you Buy 4,,Single price up to,5.49,ea.,,Lays | Tostitos | Doritos | Chips,2026-02-11,2026-02-17,Snacks
+2026-02-16T16:17:18.557054,991628392,Signature SELECT® Assorted Pork Loin Chops,,,,2.99,lb member price,,Signature SELECT®,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:18.846118,991628378,Green Asparagus,,,,2.49,lb member price,,,2026-02-11,2026-02-17,Produce
+2026-02-16T16:17:19.203277,991628390,"Fresh Atlantic Salmon Portion 7-oz., Wild Caught Lobster Tail 3-oz.",Save up to 20% weekly with for u**,,,4.99,ea member price,,,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:19.496993,991628415,"Modelo or Sierra Nevada 12-pack, 12-oz. Coors or Michelob 18-pack, 12-oz.",,,,14.99,member price,,Modelo | Sierra Nevada | Coors| Michelob,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:19.777725,991628416,"JaM Cellars Butter, La Crema Monterey, Josh Cellars or Mumm",,,,11.99,ea member price when you buy 6 or more,,JaM Cellars Butter | La Crema Monterey | Josh Cellars | Mumm,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:20.072868,991628396,Lucerne® Butter 16-oz. Milk Gallon.,Save up to 20% weekly with for U**,,,3.99,ea member price,,Lucerne®,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:17:20.364383,991628499,USDA Choice Boneless Beef Top Sirloin Steak Value Pack. Boneless Beef Tri Tip Roast Untrimmed Twin Pack,,,,5.99,lb member price,,,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:20.669045,991628504,Ben & Jerry's Ice Cream or Non-Dairy Ice Cream Pint. Tillamook Ice Cream or Ice Cream Bars 1.5 - qt. Ice Cream or 4 - pack Bars.,Save up to 20% weekly with for u**,,,3.99,ea member price,,Ben & Jerry's | Tillamook,2026-02-11,2026-02-17,Frozen
+2026-02-16T16:17:20.945145,991628509,"Coca-Cola, Pepsi or 7UP",,,,4.99,when you buy 4 member price,,Coca-Cola | Pepsi | 7UP,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:21.238701,991628501,Autumn Crisp Green or Red Seedless Grapes,Save up to 20% weekly with for U**,,,1.99,lb member price,,,2026-02-11,2026-02-17,Produce
+2026-02-16T16:17:21.540023,991628502,Strawberries,,,,4.99,ea member price,,,2026-02-11,2026-02-17,Produce
+2026-02-16T16:17:21.850671,991628503,Lucerne® Chunk or Shredded Cheese,"EARN 4X POINTS, Save up to 20% weekly with for u**",,,5.99,ea member price,,Lucerne®,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:17:22.203476,991628603,Signature SELECT® Pork Tenderloin,,,,4.99,lb member price,,Signature SELECT®,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:22.491411,991628720,Kellogg's Giant Size Cereal,EARN 4X POINTS,,,3.99,ea member price when you buy 2,,Kellogg's,2026-02-11,2026-02-17,Pantry
+2026-02-16T16:17:22.829419,991628705,USDA Choice Beef Ribeye Steak,,,,14.99,lb member price,,,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:23.124352,991628709,Sockeye Salmon Fillet,,,,12.99,lb member price,,,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:23.444556,991628507,Small Hand-Dipped Belgian Chocolate Strawberries Gift Box,,,,14.0,,,,2026-02-11,2026-02-17,Bakery
+2026-02-16T16:17:23.751582,991628488,Hand-Dipped Belgian Chocolate Covered Strawberries,,,Starting at,7.99,ea,,,2026-02-11,2026-02-17,Bakery
+2026-02-16T16:17:24.079241,991628506,"Pepperidge Farm Goldfish Crackers 4 to 8-oz., Kettle Potato Chips 5 to 8.5-oz.",Save up to 20% weekly with for u**,,,1.99,ea member price,,Pepperidge Farm | Kettle,2026-02-11,2026-02-17,Snacks
+2026-02-16T16:17:24.384011,991628412,Martinelli's Sparkling Cider,Save up to 20% weekly with for u**,,,2.49,ea member price,,Martinelli's,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:24.722553,991628717,Safeway Stock up,,,,,,,,2026-02-11,2026-02-17,Other
+2026-02-16T16:17:25.041306,991628722,"Bogle, La Vieille Ferme or Cupcake",,,,6.99,ea member price when you buy 6 or more,,Bogle | La Vieille Ferme | Cupcake,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:25.351703,991628725,"High Noon 12-pack, 355-ml. cans. Aperol or Espolòn 750-ml.",,,,26.99,member price,,High Noon | Aperol | Espolòn,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:25.648211,991628723,Snapple Tea,EARN 4X POINTS,,,5.99,member price,,Snapple,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:25.949907,991628756,Silva Linguica Sausage,,,,5.99,ea member price,,Silva,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:26.250599,991628766,Waterfront Bistro® Shrimp Ring,,,,7.99,ea member price,,WATERFRONT BISTRO®,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:26.557467,991628815,MorningStar Farms Meatless,,,,3.99,ea member price,,Morning Star Farms,2026-02-11,2026-02-17,Frozen
+2026-02-16T16:17:26.892395,991628822,"Cottonelle Bath Tissue or Flushable Wipes 12-Mega Rolls or 336-ct. Wipes, Viva Signature Paper Towels 8-Double Rolls",EARN 4X POINTS,,,11.99,ea member price,,Cottonelle | Viva,2026-02-11,2026-02-17,Household
+2026-02-16T16:17:27.186353,991628835,Safeway for u,", get $5 off",,,,,,,2026-02-11,2026-02-17,Other
+2026-02-16T16:17:27.495960,991628830,Vitali,,,,8.99,ea member price,,Vitali,2026-02-11,2026-02-17,Other
+2026-02-16T16:17:27.780348,991628715,Lemon,,,,0.99,ea,,,2026-02-11,2026-02-17,Produce
+2026-02-16T16:17:28.103202,991628710,Grapefruit,,,,1.49,ea member price,,,2026-02-11,2026-02-17,Produce
+2026-02-16T16:17:28.390321,991628661,Boar's Head BourbonRidge Ham,,,,12.99,lb member price,,Boar's Head,2026-02-11,2026-02-17,Deli & Prepared Foods
+2026-02-16T16:17:28.707106,991628708,Open Nature® Lamb Loin Chops,,,,12.99,lb member price,,OPEN NATURE®,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:29.002351,991628634,Cosmic Crisp Apples,,,,1.99,lb member price,,,2026-02-11,2026-02-17,Produce
+2026-02-16T16:17:29.330834,991628724,"Sonoma-Cutrer, Chateau D'Esclans or Daou",,,,18.99,ea member price when you buy 6 or more,,Sonoma-Cutrer | Chateau D'Esclans | Daou,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:29.629771,991628706,Rosie Organic Boneless Skinless Chicken Breasts,,,,8.99,lb member price,,Rosie,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:29.978949,991628726,"Coors or Bud 30-pack, 12-oz. Selected varieties. Golden State 8-pack, 16-oz.",,,,22.99,member price,,Coors | Bud | Golden State,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:30.258608,991628607,USDA Choice Round Strips for Stir Fry or Cube Steak,EARN 2X POINTS,,,9.99,lb member price,,,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:30.552192,991628611,Fresh Large BBQ Oysters,,,,9.99,ea member price,,,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:30.839046,991628595,Jennie-O 93% Lean Ground Turkey or Patties,,,,5.99,ea member price,,Jennie-O,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:31.109471,991628669,Chicken Nuggets,,,,5.0,ea member price,,,2026-02-11,2026-02-17,Frozen
+2026-02-16T16:17:31.407003,991628816,Gatorade 28-oz. Rockstar Energy Drink 16-oz.,,,,1.69,ea member price,,Gatorade | Rockstar,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:31.693058,991628787,Betty Crocker Frosting 12 to 16-0z. Phi Cake Mix 13.25 to 16.3-oz.,,,,1.79,ea member price,,Betty Crocker,2026-02-11,2026-02-17,Pantry
+2026-02-16T16:17:32.021688,991628329,"Red, Orange, Yellow or Green Bell Pepper",,,5 for,5.0,member price,,,2026-02-13,2026-02-13,Produce
+2026-02-16T16:17:32.306989,991628301,XOXO Bouquet,,,,12.99,,,XOXO,2026-02-11,2026-02-17,Floral
+2026-02-16T16:17:32.606542,991628334,Signature SELECT® Bacon 16-oz. Sukhi's Entrée 15 to 16-oz.,,,,5.0,ea member price,,Signature SELECT®,2026-02-13,2026-02-13,Meat & Seafood
+2026-02-16T16:17:32.889728,991628368,M&M's Share Size Bag,,,,5.0,ea member price,,M&Ms,2026-02-13,2026-02-13,Snacks
+2026-02-16T16:17:33.196666,991628317,"Lindt LINDOR Milk Chocolate, Assorted or Strawberries & Cream Heart",,,,14.99,member price,,Lindor,2026-02-11,2026-02-17,Snacks
+2026-02-16T16:17:33.556350,991628949,Overjoyed™ Boutique Heart Orchid,,,,21.99,,,Overjoyed™,2026-02-11,2026-02-17,Floral
+2026-02-16T16:17:33.846448,991628977,Bonduelle Bistro Grande Bowl,,,,5.99,ea member price,,Bonduelle Bistro,2026-02-11,2026-02-17,Deli & Prepared Foods
+2026-02-16T16:17:34.173982,991628931,Signature SELECT® Pork Spareribs,,,2 lbs for,5.0,member price,,Signature SELECT®,2026-02-13,2026-02-13,Meat & Seafood
+2026-02-16T16:17:34.473819,991628952,Signature Select® Unsalted Walnut Halves & Pieces,,,,5.99,ea member price,,Signature SELECT®,2026-02-11,2026-02-17,Pantry
+2026-02-16T16:17:34.785552,991628960,Smartwater,"Buy $25 of participating products, SAVE $5 with for U Plus be automatically entered for a chance to SCORE A TRIP TO A FIFA WORLD CUP 26™ MATCH",,,23.99,member price,,Smartwater,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:35.071769,991628976,Nasoya Organic Dumplings,"EARN 4x POINTS, BUY 1 GET 1 FREE Member Price When you Buy 2",,,,,,Nasoya,2026-02-11,2026-02-17,Frozen
+2026-02-16T16:17:35.362922,991628994,Horizon Organic Milk,,,,6.49,member price,,Horizon,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:17:35.655808,991629004,Président Feta Cheese,,,,5.99,ea member price,,Président®,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:17:35.966763,991629171,Easter Home Décor,25% OFF Member Price,,,,,,,2026-02-11,2026-03-03,Household
+2026-02-16T16:17:36.292780,991629160,Hot Wheels Basic Car,,,4 for,5.0,member price,,Hot Wheels,2026-02-11,2026-03-03,Other
+2026-02-16T16:17:36.642710,991629147,Listerine Mouthwash,,,,8.99,member price,,Listerine,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:17:36.937787,991629165,Pepto Bismol Liquid or Tablets,,,,7.99,member price,,Pepto-Bismol,2026-02-11,2026-03-03,Health & Wellness
+2026-02-16T16:17:37.233796,991628927,"Domaine Chandon, Chalk Hill or Meiomi",,,,15.99,ea member price when you buy 6 or more,,Domaine Chandon | Chalk Hill | Meiomi,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:37.527264,991628918,Waterfront Bistro® Extra Jumbo Raw Shrimp,,,,5.0,lb member price,,WATERFRONT BISTRO®,2026-02-13,2026-02-13,Meat & Seafood
+2026-02-16T16:17:37.825290,991629199,Kinder Bueno,,,10 for,10.0,member price,,Kinder Bueno,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:17:38.127241,991629197,Mars Share Size Candy,,,2 for,5.0,member price,,,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:17:38.447367,991629213,Zyrtec Allergy Relief,,,,24.99,member price,,Zyrtec,2026-02-11,2026-03-03,Health & Wellness
+2026-02-16T16:17:38.740342,991629264,Signature SELECT® Utility Lighter,,,2 for,7.0,member price,,Signature SELECT®,2026-02-11,2026-03-03,Household
+2026-02-16T16:17:39.031580,991629288,Schick Hydro or Intuition Razor,,,,6.99,ea,10.99,,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:17:39.327877,991628950,Starbucks Creamer,,,,3.99,ea member price,,Starbucks,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:17:39.639903,991628951,"Powerade 8-pack, 20-oz. Topo Chico Sabores 8-pack, 12-oz.","Buy $25 of participating products, SAVE $5 with for U Plus be automatically entered for a chance to SCORE A TRIP TO A FIFA WORLD CUP 26™ MATCH",,,6.99,member price,,Topo Chico | Powerade,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:39.926619,991628982,Jackson's Sweet Potato Chips,EARN 2X POINTS,,2 for,7.0,member price,,Jackson's,2026-02-11,2026-02-17,Snacks
+2026-02-16T16:17:40.255367,991629010,Pepperidge Farm Goldfish Crackers,,,,7.99,ea member price,,Pepperidge Farm,2026-02-11,2026-02-17,Snacks
+2026-02-16T16:17:40.556229,991629188,Betty Crocker Cake Décor,25% OFF Member Price,,,,,,Betty Crocker,2026-02-11,2026-03-03,Pantry
+2026-02-16T16:17:40.855847,991629157,Kids Spring Tableware,25% OFF Member Price,,,,,,,2026-02-11,2026-03-03,Household
+2026-02-16T16:17:41.145654,991629105,Ferrero Rocher Squares,,,,4.49,member price,,Ferrero Rocher,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:17:41.431168,991629149,Bubbles or Chalk,25% OFF Member Price,,,,,,,2026-02-11,2026-03-03,Other
+2026-02-16T16:17:41.719961,991629116,M & M's Easter Lay Down Bag,,,,4.99,member price,,M&Ms,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:17:42.019710,991629114,Dove Chocolate Candy,,,,9.99,member price,,Dove,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:17:42.338539,991629119,Band-Aid Bandages or Q-Tips Cotton Swabs,,,,5.99,member price,,Q-tips,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:17:42.643037,991629247,Signature SELECT® Travel Size Hand Sanitizer,EARN 2X POINTS,,2 for,3.0,member price,,Signature SELECT®,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:17:42.956343,991629321,Lysol Air Sanitizer Spray,,,,8.99,ea,10.99,Lysol,2026-02-11,2026-03-03,Household
+2026-02-16T16:17:43.287801,991629301,Yankee Candle,BUY 1 GET 1 FREE MEMBER PRICE When you buy 2,,,,,,YANKEE,2026-02-11,2026-03-03,Household
+2026-02-16T16:17:43.589963,991629248,Signature Care® Cough Drops,EARN 2X POINTS,,2 for,4.0,member price,,Signature Care®,2026-02-11,2026-03-03,Health & Wellness
+2026-02-16T16:17:43.893587,991629279,Legendary Foods Protein Donuts,,,2 for,7.0,member price,,Legendary Foods,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:17:44.243196,991629309,Muscle Milk Pro Shakes,,,,8.99,member price,,MUSCLE MILK,2026-02-11,2026-03-03,Beverages
+2026-02-16T16:17:44.558229,991629305,Signature Care® Vitamins,"BUY 1 GET 1 FREE Member Price When you Buy 2, EARN 2x POINTS",,,,,,Signature Care®,2026-02-11,2026-03-03,Health & Wellness
+2026-02-16T16:17:44.865784,991628508,Overjoyed™ Boutique Unforgettable Rose Arrangement,,,,69.99,,,,2026-02-11,2026-02-17,Floral
+2026-02-16T16:17:45.184885,991629223,Pharmacy,,,,,,,,2026-02-11,2026-02-17,Health & Wellness
+2026-02-16T16:17:45.494906,991629277,"Native Shampoo, Conditioner or Body Wash",EARN 2X POINTS,,,10.99,member price,,Native,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:17:45.790897,991628954,Coca-Cola,"BUY 2 GET 1 FREE Member Price When you Buy 3, Buy $25 of participating products, SAVE $5 with for U Plus be automatically entered for a chance to SCORE A TRIP TO A FIFA WORLD CUP 26™ MATCH",,,,,,Coca-Cola,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:46.095302,991629331,Boost High Protein Shakes,,,,10.99,member price,,Boost,2026-02-11,2026-03-03,Beverages
+2026-02-16T16:17:46.401394,991629328,Gatorade Protein Bars,,,,12.99,member price,,Gatorade,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:17:46.724016,991629133,Kids Plush,25% OFF Member Price,,,,,,,2026-02-11,2026-03-03,Other
+2026-02-16T16:17:47.075782,991628309,Overjoyed™ Boutique Amore Grand Bouquet,,,,21.99,,,,2026-02-11,2026-02-17,Floral
+2026-02-16T16:17:47.382731,991629216,Nerds Gummy Clusters Bag,,,,7.99,member price,,Nerds,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:17:47.692394,991628660,Cucumber,,,,0.99,ea,,,2026-02-11,2026-02-17,Produce
+2026-02-16T16:17:48.007958,991629325,GE Light Bulbs,Spend $10 Save $5 with your Member Account,,,,,,GE,2026-02-11,2026-03-03,Household
+2026-02-16T16:17:48.330809,991629139,Paas Egg Coloring Kits,25% OFF Member Price,,,,,,PAAS,2026-02-11,2026-03-03,Other
+2026-02-16T16:17:48.628161,991629267,Signature Care® or Signature SELECT® Pain Relief,,,,13.99,member price,,Signature Care® | Signature SELECT®,2026-02-11,2026-03-03,Health & Wellness
+2026-02-16T16:17:48.923469,991628986,O Organics® Tofu,EARN 4X POINTS,,,2.99,ea member price,,O Organics®,2026-02-11,2026-02-17,Produce
+2026-02-16T16:17:49.220269,991628935,Overjoyed™ Boutique Unforgettable Deluxe Arrangement,,,Starting at,79.99,,,,2026-02-11,2026-02-17,Floral
+2026-02-16T16:17:49.521245,991628629,Signature SELECT® Russet Potatoes,,,,3.99,ea member price,,Signature SELECT®,2026-02-11,2026-02-17,Produce
+2026-02-16T16:17:49.813027,991629198,Bendon Coloring or Activity Book,20% OFF Member Price,,,,,,Bendon,2026-02-11,2026-03-03,Other
+2026-02-16T16:17:50.116745,991628803,Freschetta Pizza,,,,4.99,ea member price,,Freschetta Pizza,2026-02-11,2026-02-17,Frozen
+2026-02-16T16:17:50.422689,991629302,LÄRABAR,,,,6.99,member price,,Lärabar,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:17:50.703072,991628996,Sweet Loren's Cookie Dough,,,,5.99,member price,,Sweet Loren's,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:17:50.994454,991628757,Applegate Farms Bacon,,,,4.99,ea member price,,Applegate Farms,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:17:51.325066,991628762,Signature SELECT® Soup,,,,3.99,ea member price,,Signature SELECT®,2026-02-11,2026-02-17,Pantry
+2026-02-16T16:17:51.610945,991629367,"RSV, pneumonia & shingle vaccines in one easy stop",,,,,,,,2026-02-11,2026-02-17,Health & Wellness
+2026-02-16T16:17:51.895977,991629208,Tylenol Pain Relief,,,,16.99,member price,,Tylenol,2026-02-11,2026-03-03,Health & Wellness
+2026-02-16T16:17:52.186722,991628933,Signature SELECT® Pork Shoulder Country Style Ribs or Blade Steak,,,2 lbs for,5.0,member price,,Signature SELECT®,2026-02-13,2026-02-13,Meat & Seafood
+2026-02-16T16:17:52.481028,991629126,Crest Pro Health or 3D White,,,,6.99,member price,,Crest,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:17:52.782870,991628713,Totino's Pizza Rolls,EARN 4X POINTS,,,6.99,member price,,Totino's,2026-02-11,2026-02-17,Frozen
+2026-02-16T16:17:53.072946,991628718,Signature SELECT® Pasta,EARN 4X POINTS,,4 for,5.0,member price,,Signature SELECT®,2026-02-11,2026-02-17,Pantry
+2026-02-16T16:17:53.372584,991629117,Ferrero Rocher Diamond Box,,,,12.99,member price,,Ferrero Rocher,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:17:53.668610,991628993,Président Brie or Camembert,,,,6.99,ea member price,,President,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:17:53.979633,991628955,Pictsweet Farms Vegetables,,,,2.99,member price,,PictSweet Farms,2026-02-11,2026-02-17,Frozen
+2026-02-16T16:17:54.272008,991628967,"Chicken of the Sea Chunk Light Tuna 5-oz., Tuna Pouch 2.5-oz.",,,,0.99,member price,,Chicken of the Sea,2026-02-11,2026-02-17,Pantry
+2026-02-16T16:17:54.562154,991628941,SAVE with Gas Rewards,,,,,,,,2026-02-11,2026-02-17,Other
+2026-02-16T16:17:54.850672,991628806,The Original Donut Shop Coffee or Philz Coffee,,,,5.99,ea member price,,The Original Donut Shop,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:17:55.170908,991628940,FOR YOUR Valentine,,,,,,,,2026-02-11,2026-02-17,Floral
+2026-02-16T16:17:55.468639,991628790,Nabisco Premium Crackers 9 to 17-oz. Ritz Sandwich Crackers 8-ct.,,,,2.49,ea member price,,Nabisco,2026-02-11,2026-02-17,Pantry
+2026-02-16T16:17:55.756854,991628975,Sun Luck Sesame or Chili Oil,,,,2.99,member price,,Sun Luck,2026-02-11,2026-02-17,Pantry
+2026-02-16T16:17:56.044590,991628698,Cupcakes,,,,9.99,member price,,,2026-02-11,2026-02-17,Bakery
+2026-02-16T16:17:56.331637,991628617,Navel Oranges,EARN 4X POINTS,,,5.99,ea member price,,,2026-02-11,2026-02-17,Produce
+2026-02-16T16:17:56.622166,991628658,Garlic or Shallot,,,,0.59,ea member price,,,2026-02-11,2026-02-17,Produce
+2026-02-16T16:17:56.916906,991628671,Signature SELECT® Classic Salad,EARN 2X POINTS,,,7.99,ea member price,,Signature SELECT®,2026-02-11,2026-02-17,Produce
+2026-02-16T16:17:57.215488,991628719,Tide Liquid Laundry Detergent,EARN 4x POINTS,,,19.99,member price,,Tide,2026-02-11,2026-02-17,Household
+2026-02-16T16:17:57.498912,991628939,freshpass,5% off,,,,,,,2026-02-11,2026-02-17,Other
+2026-02-16T16:17:57.805216,991629329,Beechnut Organics Jar,,,,1.79,member price,,Beech-Nut,2026-02-11,2026-03-03,Pantry
+2026-02-16T16:17:58.108474,991629357,Huggies Jumbo Pack Little Movers or Snugglers,,,,11.99,member price,,Huggies,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:17:58.402965,991628758,Primo Taglio® Lunchmeat,,,,7.99,ea member price,,Primo Taglio®,2026-02-11,2026-02-17,Deli & Prepared Foods
+2026-02-16T16:17:58.693554,991628794,General Mills Cereal 8.9 to 12-oz. Quaker Instant Oatmeal 8.4 to 14.1-oz.,,,,1.99,ea member price,,General Mills | Quaker,2026-02-11,2026-02-17,Pantry
+2026-02-16T16:17:58.980013,991629006,Challenge Spreadable Butter Tub,,,,2.99,member price,,Challenge Butter,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:17:59.277371,991629012,Ricotta Cheese 32-oz. Galbani Mozzarella Cheese,,,,4.99,ea member price,,Galbani,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:17:59.572229,991628805,"Nabisco Newtons Cookies 10-oz., Nilla Wafers 11-oz., Honey Maid Grahams 12.2 to 14.4-oz.",,,,2.99,ea member price,,Nabisco,2026-02-11,2026-02-17,Snacks
+2026-02-16T16:17:59.896047,991628824,All Laundry Detergent 73-oz. Liquid or 39-ct. Pacs. Persil 84-oz. Liquid or 42-ct. Pacs.,,,,9.99,ea member price,,All | Persil,2026-02-11,2026-02-17,Household
+2026-02-16T16:18:00.174062,991628971,Signature SELECT® or Fresh Express Salad,EARN 2X POINTS,,2 for,3.0,member price,,Signature SELECT®,2026-02-11,2026-02-17,Produce
+2026-02-16T16:18:00.471247,991628626,Hass Avocado,,,2 for,3.0,member price,,,2026-02-11,2026-02-17,Produce
+2026-02-16T16:18:00.788173,991628649,Signature SELECT® or Bonduelle Salad Bowl,,,,2.49,ea member price,,Signature SELECT®,2026-02-11,2026-02-17,Produce
+2026-02-16T16:18:01.077837,991628677,Boar's Head Antipasto Salad,,,,8.99,lb,,Boar's Head,2026-02-11,2026-02-17,Deli & Prepared Foods
+2026-02-16T16:18:01.415783,991628682,Boston Cream Cake,,,,12.99,member price,,,2026-02-11,2026-02-17,Bakery
+2026-02-16T16:18:01.693766,991628770,"Chobani Flip, Creations or Protein Greek Yogurt",,,,0.99,ea member price,,Chobani,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:18:01.996133,991628773,San Luis Sourdough Bread,,,,4.99,ea member price,,San Luis,2026-02-11,2026-02-17,Bakery
+2026-02-16T16:18:02.294771,991628781,Mission Fajita Flour Tortillas,,,,2.99,ea member price,,Mission,2026-02-11,2026-02-17,Bakery
+2026-02-16T16:18:02.587398,991628795,Nestlé Drumstick,,,,6.99,ea member price,,Nestle,2026-02-11,2026-02-17,Frozen
+2026-02-16T16:18:02.880443,991628369,Carmenet,,,,5.0,ea member price,,Carmenet,2026-02-13,2026-02-13,Beverages
+2026-02-16T16:18:03.197638,991628500,Overjoyed™ Boutique Dozen Roses,,,,24.99,,,,2026-02-11,2026-02-17,Floral
+2026-02-16T16:18:03.518270,991628690,Dinner Rolls,,,,4.99,,,,2026-02-11,2026-02-17,Bakery
+2026-02-16T16:18:03.827643,991628716,Eclairs or Cream Puffs,,,,5.49,member price,,,2026-02-11,2026-02-17,Bakery
+2026-02-16T16:18:04.123466,991628780,Tropicana Orange Juice 46-oz. Chobani Oatmilk 52-oz.,,,,3.49,ea member price,,Tropicana | Chobani,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:18:04.414488,991628819,"Corona, Stella Artois or Firestone Walker",,,,15.99,ea member price,,,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:18:04.726961,991629150,Easter Kids Toys,25% OFF Member Price,,,,,,,2026-02-11,2026-03-03,Other
+2026-02-16T16:18:05.023998,991629170,Crayola Crayons or Markers,20% OFF Member Price,,,,,,Crayola,2026-02-11,2026-03-03,Other
+2026-02-16T16:18:05.319496,991629220,Lindor Truffle Candy,BUY 1 GET 1 50% OFF Member Price,,,,,,Lindor,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:18:05.622812,991629228,Hershey Share Size Bag,,,,7.49,member price,,Hershey's,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:18:05.913310,991629268,GoMacro Bar,,,2 for,5.0,member price,,GoMacro,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:18:06.214613,991629327,Baby Club Savings,SAVE $10 when you buy 2,,,,,,,2026-02-11,2026-03-03,Other
+2026-02-16T16:18:06.508901,991628643,Lucerne® Real Milk Creamer,EARN 4x POINTS,,,3.99,member price,,Lucerne®,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:18:06.801861,991628778,Swanson Broth or Stock,,,,2.49,ea member price,,Swanson,2026-02-11,2026-02-17,Pantry
+2026-02-16T16:18:07.087543,991628779,Coffee mate Creamer,,,,2.99,ea member price,,Coffee-mate,2026-02-11,2026-02-17,Dairy & Eggs
+2026-02-16T16:18:07.384393,991628836,Purina Cat Chow Cat Food 15-lb. Beneful Dog Food 14-lb.,,,,15.99,ea member price,,Purina,2026-02-11,2026-02-17,Other
+2026-02-16T16:18:07.674556,991628953,Simply Orange Juice,"Buy $25 of participating products, SAVE $5 with for U Plus be automatically entered for a chance to SCORE A TRIP TO A FIFA WORLD CUP 26™ MATCH",,,8.99,,,Simply Orange,2026-02-11,2026-02-17,Beverages
+2026-02-16T16:18:08.003394,991629196,"Lifesavers, Skittles or Starburst Candy",,,2 for,5.0,member price,,Lifesavers | Skittles | Starburst,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:18:08.311269,991629374,Johnson & Johnson Baby Care,,,,5.99,member price,,JOHNSON & JOHNSON,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:18:08.651138,991628631,Farmer John Bacon,EARN 4x POINTS,,,5.99,ea member price,,Farmer John,2026-02-11,2026-02-17,Meat & Seafood
+2026-02-16T16:18:08.946998,991629179,Easter Plush,25% OFF Member Price,,,,,,,2026-02-11,2026-03-03,Other
+2026-02-16T16:18:09.234887,991629260,Dove or Dove Men's Deodorant,,,,8.99,member price,,Dove,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:18:09.523271,991629295,Always Ultra Thin or Maxi Pads,,,,10.99,member price,,Always,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:18:09.821797,991629297,OGX Shampoo or Conditioner,,,,6.99,ea when you buy 2,8.99,ogx®,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:18:10.120948,991629333,O Organics® Baby Food Pouch,EARN 2X POINTS,,4 for,5.0,member price,,O Organics®,2026-02-11,2026-03-03,Pantry
+2026-02-16T16:18:10.412634,991629107,Hershey's Kisses Lay Down Bag,,,,5.49,member price,,Hershey's,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:18:10.733435,991629326,Air Wick Essential Mist Diffuser Starter Kit,,,,13.99,ea,15.99,Air Wick,2026-02-11,2026-03-03,Household
+2026-02-16T16:18:11.017399,991629134,Russell Stover Chocolate Bunny,,,2 for,6.0,member price,,Russell Stover,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:18:11.303779,991629177,Funny Bunny Paper Party Goods,,,4 for,5.0,member price,,,2026-02-11,2026-03-03,Household
+2026-02-16T16:18:11.594328,991629183,Children's Tylenol or Motrin,,,,8.99,member price,,Children's,2026-02-11,2026-03-03,Health & Wellness
+2026-02-16T16:18:11.896097,991629246,Signature Care® or Signature SELECT® Liquid Hand Soap,EARN 2X POINTS,,2 for,3.0,member price,,Signature Care®,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:18:12.183856,991629252,Signature Care® Dental Flossers,,,2 for,6.0,member price,,Signature Care®,2026-02-11,2026-03-03,Health & Wellness
+2026-02-16T16:18:12.482009,991629286,Dove Bar Soap,,,,12.99,member price,,Dove,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:18:12.820117,991629376,Signature Care® Food Storage,,,2 for,7.0,member price,,Signature Care®,2026-02-11,2026-03-03,Household
+2026-02-16T16:18:13.149072,991629353,Gerber Puffs Snacks,,,,2.99,member price,,Gerber,2026-02-11,2026-03-03,Snacks
+2026-02-16T16:18:13.445234,991629358,Pampers Swaddlers Super Pack,,,,33.99,member price,,Pampers,2026-02-11,2026-03-03,Personal Care
+2026-02-16T16:18:13.744090,991629330,Clorox Cleaning Products,15% OFF Member Price,,,,,,Clorox,2026-02-11,2026-03-03,Household
+2026-02-16T16:18:14.033255,991629351,"CLIF, Luna or CLIF Builders Bar",,,3 /,4.0,when you buy 3,5.0,,2026-02-11,2026-03-03,Snacks
+2026-02-19T14:56:56.947376,993193633,Lay's Potato Chips or Poppables 5 to 8-oz. Smartfood Popcorn 5 to 10-oz.,,,2 for,5.0,member price,,Lay's | Smartfood,2026-02-20,2026-02-20,Snacks
+2026-02-19T14:56:57.733831,993193777,CARANDO,,,,,,,,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:56:58.495752,993193283,"White Claw, Twisted Tea or Bear Republic",,,,19.99,member price,,White Claw | Twisted Tea | Bear Republic,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:56:59.053122,993193541,Red Bull Energy Drink,,,,2.29,ea member price,,Red Bull,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:56:59.530728,993194120,Mars Share Size Candy,,,2 for,5.0,member price,,,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:57:00.169042,993193831,"Magnum Ice Cream Bars 3-ct., Yasso Novelties 4-ct.",EARN 2X POINTS,,,5.99,member price,,Magnum | Yasso,2026-02-18,2026-02-24,Frozen
+2026-02-19T14:57:00.625486,993193532,Mission Large Flour Tortillas,,,,2.99,ea member price,,Mission,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:57:01.337893,993193668,Spray of Roses,,,,5.0,ea member price,,,2026-02-20,2026-02-20,Floral
+2026-02-19T14:57:01.619231,993193872,Red Lobster Biscuit Mix,,,,2.49,ea member price,,Red Lobster,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:57:02.202021,993194310,Beechnut Organics Jar,,,,1.79,member price,,Beech-Nut,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:57:03.134084,993193901,FIJI Artesian Water,EARN 2X POINTS,,,5.99,member price,,FIJI Water,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:03.781570,993194105,Nerds Gummy Clusters Bag,,,,7.99,member price,,Nerds,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:57:04.366815,993193892,POM Wonderful Tea,EARN 2X POINTS,,2 for,4.0,member price,,POM Wonderful,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:04.650030,993193273,"Josh Cellars, Korbel or Joel Gott 750-ml.",,,,10.79,ea member price when you buy 6 or more,,,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:05.278833,993193307,Safeway Stock Up,,,,,,,,2026-02-18,2026-02-24,Other
+2026-02-19T14:57:05.643819,993193248,Rana Pasta 10-oz. Sauce 7 to 11-oz.,BUY 1 GET 1 FREE When you Buy 2 Member Price,,,,,,Rana,2026-02-18,2026-02-24,Deli & Prepared Foods
+2026-02-19T14:57:05.914824,993193891,Smartwater,,,,23.99,member price,,Smartwater,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:06.572287,993193616,"$5 lb. Member Price Boneless Chicken Wings General Tso's, Honey BBQ or Buffalo.Tater Kegs Original or Bacon Cheddar. $5 ea. Member Price Reser's American Classics Salad 48-oz.",,,,5.0,member price,,Reser's,2026-02-20,2026-02-20,Deli & Prepared Foods
+2026-02-19T14:57:07.165605,993193881,Fresh Pass,5% off,,,,,,,2026-02-18,2026-02-24,Other
+2026-02-19T14:57:07.620761,993194187,Groceries,,,,,,,,2026-02-18,2026-02-24,Other
+2026-02-19T14:57:08.056824,993193621,Sourdough Rounds or Loaves Bread,,,,2.49,member price,,,2026-02-18,2026-02-24,Bakery
+2026-02-19T14:57:08.752964,993193599,Seafood Meal Deal,,,4 for,20.0,member price when you buy 4,,,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:57:09.237563,993193048,Broccoli Crowns Signature SELECT® Peeled Baby-Cut Carrots 1-lb. bag. Green Bell Pepper,,,,0.99,member price,,Signature SELECT,2026-02-18,2026-02-24,Produce
+2026-02-19T14:57:09.483045,993193052,Signature SELECT® 90% Lean Ground Beef Value Pack. Sold by the pound. Oscar Mayer Bacon 12-oz,,,,5.99,member price,,Signature SELECT® | Oscar Mayer,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:57:10.087359,993193665,Tide Liquid Laundry Detergent 32 to 34-oz.Gain Laundry Detergent 46-oz. Liquid or 16-ct. Flings. Bounty Essentials Paper Towels 2-Triple Rolls.,,,,5.0,ea member price,,Tide | Gain | Bounty,2026-02-20,2026-02-20,Household
+2026-02-19T14:57:10.560341,993193050,Nabisco Family Size Oreo Cookies 10.68 to 18.71-oz. Snack Crackers 11.5 to 14-oz. Chips Ahoy! Cookies 9.31 to 19.5-oz.,,,,3.49,ea member price,,Nabisco,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:57:11.131400,993193521,Waterfront Bistro® Fin Fish Fillets,,,,9.99,ea member price,,WATERFRONT BISTRO®,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:57:11.623548,993193522,Foster Farms Shredded Chicken Breast,,,,6.99,ea member price,,Foster Farms,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:57:12.258903,993193534,"Dannon Greek, Triple Zero or Too Good Greek Yogurt",,,,3.99,ea member price,,,2026-02-18,2026-02-24,Dairy & Eggs
+2026-02-19T14:57:12.572766,993193524,McCormick Seasoning Mix,EARN 2x POINTS,,,0.69,ea member price,,McCormick,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:57:13.060123,993193540,General Mills Family Size Cereal 18.4 to 24-oz. Nature Valley Protein Bars 5-ct. Annie's Homegrown Fruit Snacks 10-ct.,,,,3.99,ea member price,,General Mills | Nature Valley | Annie's,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:57:13.536274,993193650,Lindsay Olives Hunt's Snack Pack Pudding,,,4 for,5.0,member price,,Lindsay | Snack Pack,2026-02-20,2026-02-20,Pantry
+2026-02-19T14:57:13.933615,993193890,"Powerade, 8-pack, 12-oz., Topo Chico Sabores 8-pack, 12-oz",Buy† $25 of participating products SAVE $5 with for U,,,6.99,member price,,Topo Chico | Powerade,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:14.512746,993193870,Krusteaz Cornbread Mix,,,,2.49,ea member price,,Krusteaz,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:57:14.914581,993193614,Fresh Whole Dungeness Crab,,,,9.99,lb member price,,,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:57:15.295399,993194227,Signature Care® or Signature SELECT® Pain Relief,,,,13.99,member price,,Signature Care | Signature SELECT,2026-02-18,2026-02-24,Health & Wellness
+2026-02-19T14:57:15.864814,993193859,Pepperidge Farm Goldfish Crackers,EARN 4X POINTS,,,7.99,ea member price,,Pepperidge Farm,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:57:16.596751,993193899,Jackson's Sweet Potato Chips,EARN 2X POINTS,,2 for,7.0,member price,,Jackson's,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:57:17.120456,993193896,Sumo Citrus,EARN 2X POINTS,,,5.99,ea member price,,Sumo Citrus,2026-02-18,2026-02-24,Produce
+2026-02-19T14:57:17.681706,993193233,Broccoli Crunch Salad,,,,7.99,lb,,,2026-02-18,2026-02-24,Deli & Prepared Foods
+2026-02-19T14:57:18.348898,993193646,"Half Pie 9-inch. Fresh Baked., Overjoyed® Snack Bites",,,,5.0,ea member price,,Overjoyed®,2026-02-20,2026-02-20,Bakery
+2026-02-19T14:57:18.709834,993193905,Gas Rewards,,,,,,,,2026-02-18,2026-02-24,Other
+2026-02-19T14:57:19.288022,993193287,Lucerne® Flavored Creamer,EARN 4X POINTS,,,2.99,member price,,Lucerne®,2026-02-18,2026-02-24,Dairy & Eggs
+2026-02-19T14:57:19.676659,993193249,La Brea Twin Baguettes or Rolls,,,Starting at,4.99,,,La Brea Bakery,2026-02-18,2026-02-24,Bakery
+2026-02-19T14:57:20.232924,993193538,"Pepperidge Farm Milano, Sweet & Simple or Chunk Cookies",,,,3.99,ea member price,,Pepperidge Farm,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:57:20.666815,993193828,"Chobani Greek, Less Sugar or Zero Sugar Greek Yogurt",,,10 for,10.0,member price,,Chobani,2026-02-18,2026-02-24,Dairy & Eggs
+2026-02-19T14:57:21.297361,993193840,Kellogg's Giant Size Cereal,EARN 4X POINTS,,,4.99,ea member price,,Kellogg's,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:57:21.949718,993193904,ALL Fresh Cut,BUY 2 GET 1 FREE,,,,,,,2026-02-18,2026-02-24,Floral
+2026-02-19T14:57:22.701487,993193903,Clamato,,,2 for,5.0,member price,,clamato,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:23.374273,993193291,smartwater,EARN 4x for U POINTS STOCK UP SALE!,,3 for,5.0,member price,,Smartwater,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:23.744049,993193292,Cheez-It Family Size Crackers,EARN 4X POINTS,,,4.99,member price,,Cheez-It,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:57:24.398348,993193542,Tito's,,,,14.99,ea member price,,Tito's,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:24.727141,993193543,Bertolli Dinner Entrée,,,,5.99,ea member price,,Bertolli,2026-02-18,2026-02-24,Frozen
+2026-02-19T14:57:25.259871,993193041,"Thomas' Bagels, English Muffins or Swirl Bread 10.5 to 20-oz. Entenmann's 8.25 to 18-oz.","BUY 1 GET 1 FREE, Member Price When you Buy 2",,,,,,,2026-02-18,2026-02-24,Bakery
+2026-02-19T14:57:25.512271,993193043,"Waterfront Bistro® Salmon Fillets 16-oz. Frozen. Selected varieties. Cod Fillets 16-oz. Frozen. Large Cooked Shrimp 31 to 40-ct. Sold in a 2-lb. bag. Frozen. Gorton's, Van de Kamp's or SeaPak Seafood 9 to 24.5-oz. Selected varieites. Northern Chef seafood",BUY 1 GET 1 FREE Member Price When you Buy 2,,,,,,Waterfront Bistro® | Gorton's | Van de Kamp's | SeaPak | Northern Chef,2026-02-18,2026-02-24,Frozen
+2026-02-19T14:57:25.928411,993193306,Kleenex Facial Tissue,EARN 4x POINTS,,,7.99,member price,,Kleenex,2026-02-18,2026-02-24,Household
+2026-02-19T14:57:26.412420,993193539,AriZona Tea 22-oz. can. Signature SELECT® Sparkling Water Beverage Liter.,,,,0.79,ea member price,,AriZona | Signature SELECT®,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:26.969025,993193221,Hot House Tomatoes,,,,2.99,lb member price,,,2026-02-18,2026-02-24,Produce
+2026-02-19T14:57:27.656849,993193895,Rockit Apples,EARN 2X POINTS,,,6.99,ea member price,,Rockit,2026-02-18,2026-02-24,Produce
+2026-02-19T14:57:27.969724,993193604,Chicken of the Sea or StarKist Chunk Light Tuna,,,,0.99,member price,,Chicken of the Sea | StarKist,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:57:28.219538,993193893,Wonderful Pistachios,EARN 2x POINTS,,,5.99,ea member price,,Wonderful,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:57:28.750742,993194041,Easter Kids Toys,25% OFF Member Price,,,,,,,2026-02-18,2026-02-24,Other
+2026-02-19T14:57:29.266982,993194128,Hot Wheels Basic Car,,,4 for,5.0,member price,,Hot Wheels,2026-02-18,2026-02-24,Other
+2026-02-19T14:57:30.103256,993193036,"Signature SELECT® Chicken Drumsticks or Thighs Value Pack. Sold by the pound., Butterball 93% Lean Ground Turkey 16-oz. Sold by the each. 16 - oz. Sold by the each.",BUY 1 GET 1 FREE Member Price When you Buy 2,,,,,,Signature SELECT® | Butterball,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:57:30.707447,993193045,"Kellogg's Cereal 11.6 to 12.2-oz. Frosted Flakes, 14.3 to 18-oz. Frosted Mini-Wheats or 7.8 to 9.3-oz. Froot Loops. Pop-Tarts 8-ct. Nature Valley Bars 5 to 12-ct.",,,,2.49,ea member price when you buy 3,,Kellogg's | Pop-Tarts | Nature Valley,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:57:31.370124,993194228,Dove or Dove Men's Deodorant,,,,8.99,member price,,Dove,2026-02-18,2026-02-24,Personal Care
+2026-02-19T14:57:31.853970,993193037,Hass Avocado or Mango,,,4 for,5.0,member price,,,2026-02-18,2026-02-24,Produce
+2026-02-19T14:57:32.364468,993193040,"Cheetos, Doritos, NKD, Simply or Miss Vickie's Chips",BUY 2 GET 2 FREE Member Price When you Buy 4,,,,,,Cheetos | Doritos | Simply | Miss Vickie's,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:57:33.002106,993193535,Land O'Lakes Butter,,,,3.99,ea member price,,Land O'Lakes,2026-02-18,2026-02-24,Dairy & Eggs
+2026-02-19T14:57:33.480172,993193537,Philadelphia Cream Cheese,,,,2.49,ea member price,,PHILADELPHIA,2026-02-18,2026-02-24,Dairy & Eggs
+2026-02-19T14:57:33.723399,993194011,Kids Plush,25% OFF Member Price,,,,,,,2026-02-18,2026-02-24,Other
+2026-02-19T14:57:34.294932,993194219,Signature SELECT® Utility Lighter,,,2 for,7.0,member price,,Signature SELECT®,2026-02-18,2026-02-24,Household
+2026-02-19T14:57:35.124688,993194061,Paas Egg Coloring Kits,25% OFF Member Price,,,,,,,2026-02-18,2026-02-24,Other
+2026-02-19T14:57:35.849168,993194089,M&M's Easter Lay Down Bag,,,,4.99,member price,,M&Ms,2026-02-11,2026-03-03,Snacks
+2026-02-19T14:57:36.506779,993194153,Tylenol Pain Relief,,,,16.99,member price,,Tylenol,2026-02-18,2026-03-03,Health & Wellness
+2026-02-19T14:57:36.835587,993194237,Schick Hydro or Intuition Razor,,,,6.99,ea,10.99,Schick | Intuition,2026-02-18,2026-03-03,Personal Care
+2026-02-19T14:57:37.493098,993194281,Yankee Candle,BUY 1 GET 1 FREE Member Price When you Buy 2,,,,,,Yankee Candle,2026-02-18,2026-02-24,Household
+2026-02-19T14:57:37.817097,993194311,Johnson & Johnson Baby Care,,,,5.99,member price,,JOHNSON & JOHNSON,2026-02-18,2026-02-24,Personal Care
+2026-02-19T14:57:39.282934,993193038,Signature SELECT® Mandarins,,,,3.99,ea member price,,Signature SELECT®,2026-02-18,2026-02-24,Produce
+2026-02-19T14:57:39.928210,993193196,USDA Choice Beef for Stew Meat or Cube Steak,EARN 2X POINTS,,,9.99,lb member price,,,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:57:40.554301,993193212,Jumbo Cooked Shrimp,,,,9.99,lb member price,,,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:57:41.119638,993193536,Tropicana Orange Juice 46-oz. Chobani Oatmilk 52-oz.,,,,3.49,ea member price,,,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:41.544693,993193900,Wonderful Seedless Lemons,EARN 2X POINTS,,,3.99,ea member price,,Wonderful,2026-02-18,2026-02-24,Produce
+2026-02-19T14:57:42.996938,993194297,GE Light Bulbs,Spend $10 Save $5 with your Member Account,,,,,,GE,2026-02-18,2026-02-24,Household
+2026-02-19T14:57:43.527149,993193531,Progresso Soup,EARN 4X POINTS,,,2.49,ea member price,,Progresso,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:57:43.934270,993193049,Sargento Shredded or Sliced Cheese,,,,1.99,ea member price,,Sargento,2026-02-18,2026-02-24,Dairy & Eggs
+2026-02-19T14:57:44.610313,993194349,GoMacro Bar,,,2 for,5.0,member price,,GoMacro,2026-02-18,2026-02-24,Health & Wellness
+2026-02-19T14:57:45.238603,993193533,Dave's Killer Bread,,,,5.99,ea member price,,Dave's Killer,2026-02-18,2026-02-24,Bakery
+2026-02-19T14:57:45.639912,993193638,Soleil® Sparkling Water,,,2 for,5.0,member price,,Soleil®,2026-02-20,2026-02-20,Beverages
+2026-02-19T14:57:46.178549,993193546,Safeway for u,,,,,,,,2026-02-18,2026-02-24,Other
+2026-02-19T14:57:46.703757,993193657,Lobster Tail,,,,5.0,ea member price,,,2026-02-20,2026-02-20,Meat & Seafood
+2026-02-19T14:57:47.144646,993193054,Safeway for U,,,,,,,,2026-02-18,2026-02-24,Other
+2026-02-19T14:57:47.419038,993193902,KICKIN' Chicken MEAL DEAL,,,,15.0,ea member price,,,2026-02-18,2026-05-26,Deli & Prepared Foods
+2026-02-19T14:57:48.086652,993193887,Coca-Cola,"BUY 2 GET 1 FREE Member Price When you buy 3, Buy† $25 of participating products SAVE $5 with for u Plus be automatically entered for a chance to SCORE A TRIP TO A FIFA WORLD CUP 26™ MATCH",,,,,,Coca-Cola,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:48.748418,993193898,Nasoya Organic Dumplings,EARN 4X POINTS. BUY 1 GET 1 FREE When you Buy 2 Member Price,,,,,,Nasoya,2026-02-18,2026-02-24,Frozen
+2026-02-19T14:57:49.370570,993193894,Coca-Coca Products,Buy† $25 of participating product SAVE $5 with for U Plus be automatically entered for a chance to SCORE A TRIP TO A FIFA WORLD CUP 26™ MATCH,,,,,,,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:50.046770,993193889,Simply Orange Juice,,,,8.99,,,,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:50.693752,993193897,Fresh Express Family Size Iceberg Shreds,EARN 2X POINTS,,,2.99,ea member price,,Fresh Express,2026-02-18,2026-02-24,Produce
+2026-02-19T14:57:51.223828,993194019,Hershey's Kisses Lay Down Bag,,,,5.49,,,Hershey's,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:57:51.986928,993194081,Bubbles or Chalk,25% OFF Member Price,,,,,,,2026-02-18,2026-02-24,Other
+2026-02-19T14:57:52.901150,993194214,Signature Care® Cough Drops,EARN 2X POINTS,,2 for,4.0,member price,,Signature Care®,2026-02-18,2026-02-24,Health & Wellness
+2026-02-19T14:57:53.754256,993194343,Signature Care® Vitamins,"EARN 2x POINTS, BUY 1 GET 1 FREE When You Buy 2 Member Price",,,,,,Signature Care®,2026-02-18,2026-02-24,Health & Wellness
+2026-02-19T14:57:54.678564,993193044,Starbucks Coffee,,,,7.99,ea member price when you buy 2,,Starbucks,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:55.068422,993193053,"Corona, Lagunitas, Sierra Nevada or Pacifico",,,,12.99,ea member price,,Corona | Lagunitas | Sierra Nevada | Pacifico,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:55.363973,993193034,Fresh Atlantic Salmon Whole Fillet,,,,7.99,lb member price,,,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:57:55.821027,993193035,USDA Choice Boneless Beef Top Round London Broil Value Pack. Boneless Beef Bottom Round Roast Mega Pack,,,,5.99,lb member price,,,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:57:56.091368,993193039,Fresh Cut Produce,BUY 2 GET 1 FREE Member Price When you Buy 3,,,,,,,2026-02-18,2026-02-24,Produce
+2026-02-19T14:57:56.646004,993193046,"Coca-Cola, Pepsi, 7UP or Dr Pepper",,,,12.99,member price,,Coca-Cola | Pepsi | 7UP | Dr Pepper,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:57:57.200031,993193047,Lucerne® Cage Free Eggs,,,,2.99,ea member price,,Lucerne®,2026-02-18,2026-02-24,Dairy & Eggs
+2026-02-19T14:57:57.724879,993193051,Lean Cuisine Entrée 6 to 11-oz. Favorites 8.5 to 11.5-oz. Stouffer's Mid Tier Entrée 8.37 to 12.62-oz. Side 12-oz.,,,,1.99,ea member price,,Lean Cuisine | Stouffer's,2026-02-18,2026-02-24,Frozen
+2026-02-19T14:57:58.319027,993193192,Signature SELECT® Pork Spareribs,,,,3.99,lb member price,,Signature SELECT®,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:57:58.653579,993193194,Chef's Counter™ Marinated Tri Tip Roast,,,,8.99,lb member price,,Chef's Counter,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:57:58.912964,993193042,Dreyer's 1.5-qt. Nestlé Outshine Fruit Bars 4 to 6-ct.,,,2 for,6.0,member price,,,2026-02-18,2026-02-24,Frozen
+2026-02-19T14:57:59.188153,993193261,Signature SELECT® Mini Carnations,,,,4.99,member price,,Signature SELECT®,2026-02-18,2026-02-24,Floral
+2026-02-19T14:57:59.820343,993193195,Rocky Free Range Whole Chicken,,,,1.99,lb member price,,ROCKY®,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:58:00.347505,993193204,Fresh Steelhead Trout Fillet,,,,9.99,lb member price,,,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:58:00.636334,993193242,Navel Oranges,EARN 4x POINTS,,,5.99,ea member price,,,2026-02-18,2026-02-24,Produce
+2026-02-19T14:58:01.227996,993193216,Signature SELECT® Boneless Pork Top Loin Chops,EARN 2X POINTS,,,3.99,lb member price,,Signature SELECT®,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:58:01.623955,993193523,Oscar Mayer Lunchmeat,,,,4.99,ea member price,,Oscar Mayer,2026-02-18,2026-02-24,Deli & Prepared Foods
+2026-02-19T14:58:02.117675,993193544,Birds Eye Steamfresh Vegetables,,,,1.99,ea member price,,Birds Eye,2026-02-18,2026-02-24,Frozen
+2026-02-19T14:58:02.475195,993193528,"Tide Laundry Pods 45, 57 or 76-ct. Liquid Laundry Detergent 117 to 132-oz.",EARN 4X POINTS,,,14.99,ea member price,,Tide,2026-02-18,2026-02-24,Household
+2026-02-19T14:58:02.949743,993193545,1800 Tequila,,,,19.99,ea member price,,1800 Tequila,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:58:03.361976,993193818,Signature SELECT® Unsalted Walnut Halves & Pieces,,,,5.99,ea member price,,Signature SELECT®,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:58:03.739336,993193223,Green or Red Seedless Grapes,,,,4.99,lb,,,2026-02-18,2026-02-24,Produce
+2026-02-19T14:58:04.374815,993193229,O Organics® Salad Blends,,,,5.0,ea member price,,O Organics®,2026-02-18,2026-02-24,Produce
+2026-02-19T14:58:04.852294,993193239,Primo Taglio® Parmesan Cheese,,,,3.99,ea member price,,Primo Taglio®,2026-02-18,2026-02-24,Dairy & Eggs
+2026-02-19T14:58:05.374439,993193277,"Duckhorn, Ferrari-Carano or St. Francis",,,,17.99,ea member price when you buy 6 or more,,Duckhorn | Ferrari-Carano | St. Francis,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:58:05.809880,993193218,Smoked Applewood or Peppered Bacon,,,,7.99,lb member price,,,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:58:06.347826,993193231,Lemon,,,,0.99,ea,,,2026-02-18,2026-02-24,Produce
+2026-02-19T14:58:06.757742,993193213,"Red, Orange or Yellow Bell Pepper",,,2 for,4.0,member price,,,2026-02-18,2026-02-24,Produce
+2026-02-19T14:58:07.393175,993193215,SugarBee Apples,,,,2.99,lb member price,,,2026-02-18,2026-02-24,Produce
+2026-02-19T14:58:07.769494,993193222,Cucumber,,,,0.99,ea,,,2026-02-18,2026-02-24,Produce
+2026-02-19T14:58:08.018640,993193250,Mini Croissants,,,,4.99,member price,,,2026-02-18,2026-02-24,Bakery
+2026-02-19T14:58:08.296285,993193237,Signature SELECT® Whole Roasted Chicken,,,Starting at,8.99,ea,,Signature SELECT®,2026-02-18,2026-02-24,Deli & Prepared Foods
+2026-02-19T14:58:08.940398,993193258,Hostess Multi-Pack,,,,4.99,member price,,Hostess,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:58:09.554700,993193256,Danishes,,,,5.99,member price,,,2026-02-18,2026-02-24,Bakery
+2026-02-19T14:58:09.961220,993193262,Radiant Hydrangea Rose Mini Bouquet,,,,14.99,,,,2026-02-18,2026-02-24,Floral
+2026-02-19T14:58:10.606241,993193290,Kellogg's Eggo Waffles,EARN 4X POINTS,,,5.99,member price,,Kellogg's,2026-02-18,2026-02-24,Frozen
+2026-02-19T14:58:11.064361,993193276,Signature SELECT® Hybrid Lilies,,,,6.99,member price,,Signature SELECT®,2026-02-18,2026-02-24,Floral
+2026-02-19T14:58:11.531627,993193282,California Grown Bouquet,,,,16.99,,,,2026-02-18,2026-02-24,Floral
+2026-02-19T14:58:11.932713,993193288,"Bacardi, Jose Cuervo or Evan Williams",,,,21.99,member price,,Bacardi | Jose Cuervo | Evan Williams,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:58:12.572693,993193301,Huggies Little Movers or Little Snugglers Giga Pack,EARN 4X POINTS,,,34.99,member price,,Huggies,2026-02-18,2026-02-24,Personal Care
+2026-02-19T14:58:13.011846,993193302,Signature SELECT® Canned Vegetables,EARN 4X POINTS,,4 for,5.0,member price,,Signature SELECT®,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:58:13.576069,993193304,Signature SELECT® Mayonnaise,EARN 4X POINTS,,,3.99,member price,,Signature SELECT®,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:58:13.889629,993193525,"Kellogg's Club or Town House Crackers 9.5 to 13.8-oz., Keebler Sandwich Crackers 8-pack, 1.38-oz., Quaker Chewy Granola Bars 5 to 8-ct.",,,,2.99,ea member price,,Kellogg's | Keebler | Quaker,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:58:14.492530,993193530,Charmin Bath Tissue 12-Mega Rolls. Bounty Paper Towels 6-Double Plus Rolls.,,,,14.99,ea member price,,Charmin | Bounty,2026-02-18,2026-02-24,Household
+2026-02-19T14:58:15.095543,993193526,Signature SELECT® refreshe® Purified Drinking Water,,,,2.49,ea member price,,Signature SELECT®,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:58:15.782274,993193527,DiGiorno Rising Crust or Hand Tossed Pizza,,,,4.99,ea member price,,DiGiorno,2026-02-18,2026-02-24,Frozen
+2026-02-19T14:58:16.280512,993193529,Sukhi's Rice Bowl,,,,6.99,ea member price,,Sukhi's,2026-02-18,2026-02-24,Deli & Prepared Foods
+2026-02-19T14:58:16.924508,993193628,Strawberries,,,,5.0,ea member price,,,2026-02-20,2026-02-20,Produce
+2026-02-19T14:58:17.210987,993193596,Fresh Large BBQ Oysters,,,,9.99,ea member price,,,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:58:17.790131,993193603,Fresh Atlantic Salmon Portion,,,,6.99,ea member price,,Fresh Atlantic,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:58:18.392815,993193608,Waterfront Bistro® or Open Nature® Mussels,,,2 for,5.0,member price,,Waterfront Bistro® | Open Nature®,2026-02-18,2026-02-24,Meat & Seafood
+2026-02-19T14:58:18.687063,993193618,Waterfront Bistro® Jumbo Raw Shrimp,,,,5.0,lb member price,,WATERFRONT BISTRO®,2026-02-20,2026-02-20,Meat & Seafood
+2026-02-19T14:58:19.150840,993193617,Signature SELECT® Pasta,,,4 for,5.0,member price,,Signature SELECT®,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:58:19.712685,993193635,Fresh Sushi Made Fresh Daily. Selected varieties. Wild Alaskan Pollock 4-Piece.,,,,5.0,ea member price,,,2026-02-20,2026-02-20,Deli & Prepared Foods
+2026-02-19T14:58:20.066469,993193641,Fuji Apples or Large Navel Oranges,,,5 lbs for,5.0,member price,,,2026-02-20,2026-02-20,Produce
+2026-02-19T14:58:20.329356,993193626,Primo Taglio® Ham or American Cheese,,,,5.0,lb member price,,Primo Taglio®,2026-02-20,2026-02-20,Deli & Prepared Foods
+2026-02-19T14:58:20.883760,993193645,Signature SELECT® Extra Meaty Pork Loin Back Ribs,,,,5.0,lb member price,,Signature SELECT®,2026-02-20,2026-02-20,Meat & Seafood
+2026-02-19T14:58:21.615694,993193658,Signature SELECT® Thick Cut Bacon,,,,5.0,lb member price,,Signature SELECT®,2026-02-20,2026-02-20,Meat & Seafood
+2026-02-19T14:58:22.200134,993193655,MontPellier,,,,5.0,ea member price,,Montpellier,2026-02-20,2026-02-20,Beverages
+2026-02-19T14:58:22.782095,993193662,Lucerne® Chunk Cheese,,,2 for,5.0,member price,,Lucerne®,2026-02-20,2026-02-20,Dairy & Eggs
+2026-02-19T14:58:23.301043,993193830,Lifeway Kefir Smoothie,EARN 2x POINTS,,,3.99,member price,,Lifeway,2026-02-18,2026-02-24,Dairy & Eggs
+2026-02-19T14:58:23.788874,993193827,Cacique Queso Fresco 10-oz. Crema 15-oz.,,,,3.99,member price,,Cacique,2026-02-18,2026-02-24,Dairy & Eggs
+2026-02-19T14:58:24.152937,993193837,Panera Soup,,,,9.99,ea member price,,Panera,2026-02-18,2026-02-24,Deli & Prepared Foods
+2026-02-19T14:58:24.537489,993193863,Krusteaz Pancake or Waffle Mix,,,,2.49,ea member price,,Krusteaz,2026-02-18,2026-02-24,Pantry
+2026-02-19T14:58:25.024007,993193888,Health-Ade Kombucha,EARN 2x POINTS,,2 for,7.0,member price,,Health-Ade,2026-02-18,2026-02-24,Beverages
+2026-02-19T14:58:25.402989,993194170,Listerine Mouthwash,,,,8.99,member price,,Listerine,2026-02-18,2026-02-24,Personal Care
+2026-02-19T14:58:26.058342,993194198,Signature SELECT® Travel Size Hand Sanitizer,EARN 2x POINTS,,2 for,3.0,member price,,Signature SELECT®,2026-02-18,2026-02-24,Personal Care
+2026-02-19T14:58:26.748235,993194327,Gerber Puffs Snacks,,,,2.99,member price,,Gerber,2026-02-18,2026-02-24,Snacks
+2026-02-19T14:58:27.279640,993194350,Pharmacy,,,,,,,,2026-02-18,2026-02-24,Health & Wellness
+2026-02-26T15:37:20.909298,994608793,Driscolls Strawberries,,,2 for,4.0,member price,,Driscoll's,2026-02-25,2026-03-03,Produce
+2026-02-26T15:37:21.578499,994611744,4-Piece Fried Chicken,,,,4.99,ea member price,,,2026-02-25,2026-03-03,Deli & Prepared Foods
+2026-02-26T15:37:22.115252,994612366,Frito Lay Variety Pack,,,,8.99,ea member price,,Frito-Lay,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:37:22.567525,994612320,Hormel Black Label Bacon,,,,7.99,ea member price,,Hormel,2026-02-25,2026-03-03,Meat & Seafood
+2026-02-26T15:37:23.426724,994613319,"Lifesavers, Skittles or Starburst Candy",,,2 for,5.0,member price,,Lifesavers | Skittles | Starburst,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:37:24.074874,994612376,belVita Breakfast Biscuits 5 to 8.8-oz. Nabisco Ritz Sandwich Crackers 8-ct.,,,,2.99,ea member price,,belVita | Nabisco,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:37:24.543504,994612365,Healthy Choice Simply Steamers 9 to 10-oz. Marie Callender's Pot Pie 14 to 15-oz.,,,,3.49,ea member price,,Healthy Choice | Marie Callender's,2026-02-25,2026-03-03,Frozen
+2026-02-26T15:37:25.222511,994613419,Lysol Air Sanitizer Spray,,,,8.99,ea,10.99,Lysol,2026-02-25,2026-03-03,Household
+2026-02-26T15:37:25.831146,994612705,Cheesecake Platter,,,,5.0,ea member price,,,2026-02-27,2026-02-27,Bakery
+2026-02-26T15:37:26.486492,994612686,Chicken Tenders Original or Nashville Hot. Smoked Sausage With Mango Habanero Sauce. JoJo Potato Wedges,,,,5.0,lb member price,,,2026-02-27,2026-02-27,Deli & Prepared Foods
+2026-02-26T15:37:27.193634,994613304,Children's Tylenol or Motrin,,,,8.99,member price,,Tylenol | Motrin,2026-02-25,2026-03-03,Health & Wellness
+2026-02-26T15:37:27.763215,994613401,Always Ultra Thin or Maxi Pads,,,,10.99,member price,,Always,2026-02-25,2026-03-03,Personal Care
+2026-02-26T15:37:28.214612,994613443,Dove Bar Soap,,,,12.99,member price,,Dove,2026-02-25,2026-03-03,Personal Care
+2026-02-26T15:37:28.968981,994613468,Pampers Swaddlers Super Pack,,,,33.99,member price,,Pampers,2026-02-25,2026-03-03,Household
+2026-02-26T15:37:29.416046,994613474,Beechnut Organics Jar,,,,1.79,member price,,Beech-Nut,2026-02-25,2026-03-03,Pantry
+2026-02-26T15:37:29.976180,994612730,Boston Cream Cake,,,,5.0,ea member price,,,2026-02-27,2026-02-27,Bakery
+2026-02-26T15:37:30.398541,994613250,Pepto Bismol Liquid or Tablets,,,,7.99,member price,,Pepto-Bismol,2026-02-25,2026-03-03,Health & Wellness
+2026-02-26T15:37:31.033889,994613265,Easter Plush,25% OFF Member Price,,,,,,,2026-02-25,2026-03-03,Other
+2026-02-26T15:37:31.560375,994613302,Bendon Coloring or Activity Book,20% OFF Member Price,,,,,,Bendon,2026-02-25,2026-03-03,Other
+2026-02-26T15:37:32.482433,994613395,Clorox Cleaning Products,15% OFF Member Price,,,,,,Clorox,2026-02-25,2026-03-03,Household
+2026-02-26T15:37:33.110213,994613425,OGX Shampoo or Conditioner,,,,6.99,ea when you buy 2,8.99,OGX,2026-02-25,2026-03-03,Personal Care
+2026-02-26T15:37:33.679641,994612681,Wild Alaskan Pollock 4-Piece. Fresh Sushi Made Fresh Daily.,,,,5.0,ea member price,,,2026-02-27,2026-02-27,Deli & Prepared Foods
+2026-02-26T15:37:33.973306,994612701,Breyers Ice Cream 1.5-qt. Klondike Novelties 4 to 6-ct.,,,2 for,5.0,member price,,Breyers | Klondike,2026-02-27,2026-02-27,Frozen
+2026-02-26T15:37:34.528129,994612715,Frito-Lay Baked! Chips 6.25 to 7.62-oz. Lay's Potato Chips or Poppables 5 to 8-oz.,,,2 for,5.0,member price,,Frito-Lay,2026-02-27,2026-02-27,Snacks
+2026-02-26T15:37:35.059176,994613318,Zyrtec Allergy Relief,,,,24.99,member price,,Zyrtec,2026-02-25,2026-03-03,Health & Wellness
+2026-02-26T15:37:35.695869,994613467,O Organics® Baby Food Pouch,Earn 2x POINTS,,4 for,5.0,member price,,O Organics®,2026-02-25,2026-03-03,Pantry
+2026-02-26T15:37:36.432843,994613370,Signature Care® Cough Drops,EARN 2X POINTS,,2 for,4.0,member price,,Signature Care®,2026-02-25,2026-04-28,Health & Wellness
+2026-02-26T15:37:36.809575,994613379,Signature Care® Vitamins,BUY 1 GET 1 FREE Member Price When you Buy 2,,,,,,Signature Care,2026-02-25,2026-03-03,Health & Wellness
+2026-02-26T15:37:37.367302,994612723,Buitoni Family Size Filled Pasta 20-oz. Sauce 11 to 15-oz.,,,,5.0,ea member price,,Buitoni,2026-02-27,2026-02-27,Deli & Prepared Foods
+2026-02-26T15:37:37.867736,994612741,"Blueberries, Raspberries or Blackberries",,,2 for,5.0,member price,,,2026-02-27,2026-02-27,Produce
+2026-02-26T15:37:38.561583,994613075,De Cecco Pasta,,,2 for,5.0,member price,,DeCecco,2026-02-25,2026-03-03,Pantry
+2026-02-26T15:37:39.106704,994613378,Legendary Foods Protein Donuts,,,2 for,7.0,member price,,Legendary Foods,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:37:39.890964,994613400,Muscle Milk Pro Shakes,,,,8.99,member price,,MUSCLE MILK,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:37:41.057131,994613421,Yankee Candle,BUY 1 GET 1 FREE When you buy 2 Member Price,,,,,,Yankee Candle,2026-02-25,2026-03-03,Household
+2026-02-26T15:37:41.854299,994613462,Johnson & Johnson Baby Care,,,,5.99,member price,,JOHNSON & JOHNSON,2026-02-25,2026-03-03,Personal Care
+2026-02-26T15:37:42.667172,994613480,"CLIF, Luna or CLIF Builders Bar",,,3 /,4.0,when you buy 3,,CLIF | Luna,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:37:43.425937,994613482,Huggies Jumbo Pack Little Movers or Snugglers,,,,11.99,member price,,Huggies,2026-02-25,2026-03-03,Household
+2026-02-26T15:37:44.187633,994608785,Lucerne® Milk,,,,1.99,ea member price,,Lucerne,2026-02-25,2026-03-03,Dairy & Eggs
+2026-02-26T15:37:44.805385,994608817,Autumn Crisp Green or Red Seedless Grapes,,,,2.49,lb member price,,,2026-02-25,2026-03-03,Produce
+2026-02-26T15:37:45.320196,994608857,Doritos Tortilla Chips 6 to 10.75-oz. Cheetos 6.5 to 10-oz. Lay's Kettle Potato Chips 7 to 8-oz. Frito-Lay Simply Snacks 4.5 to 6.5-oz.,,,,1.99,ea member price when you buy 4,,Doritos | Cheetos | Kettle | Frito-Lay,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:37:45.826404,994608928,Yoplait Yogurt 4 to 6-oz. Protein Yogurt 5.6-oz.,,,,0.39,ea member price,,Yoplait,2026-02-25,2026-03-03,Dairy & Eggs
+2026-02-26T15:37:46.559193,994608658,Fresh Atlantic Salmon Portion 7-oz. Farm raised. Wild Caught Lobster Tail 3-oz.,,,,5.99,ea member price,,,2026-02-25,2026-03-03,Meat & Seafood
+2026-02-26T15:37:46.987177,994608688,USDA Choice Boneless Beef Top Sirloin Steak,,,,5.99,lb member price,,,2026-02-25,2026-03-03,Meat & Seafood
+2026-02-26T15:37:47.619405,994608758,Waterfront Bistro® Jumbo Raw Shrimp,,,,5.99,lb member price,,WATERFRONT BISTRO®,2026-02-25,2026-03-03,Meat & Seafood
+2026-02-26T15:37:48.075431,994608759,Jennie-O 93% Lean Ground Turkey or Patties 16-oz. Signature SELECT® Pork Country Style Ribs,BUY 1 GET 1 FREE When you buy 2 Member Price,,,,,,Jennie-O | Signature SELECT®,2026-02-25,2026-03-03,Meat & Seafood
+2026-02-26T15:37:48.765906,994608876,Nabisco Snack Crackers 3.5 to 9.1-oz. Ritz Crackers 8.8 to 13.7-oz. Chips Ahoy! Cookies 9.5 to 13-oz. Cheez-It or Snap'd Crackers 7.5 to 12.4-oz.,,,,2.49,ea member price when you buy 2,,Nabisco | Cheez-It,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:37:49.321567,994608807,Assorted Products,,,10 for,10.0,,,,2026-02-25,2026-03-03,Other
+2026-02-26T15:37:49.903584,994608897,"Coca-Cola, Pepsi, 7UP or Dr Pepper",BUY 2 GET 2 FREE Member Price When you Buy 4,,,,,,Coca-Cola | Pepsi | 7UP | Dr Pepper,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:37:50.308639,994608916,Oroweat Variety Bread 24-oz. Sun-Maid Raisin Bread 16-oz.,BUY 1 GET 1 FREE Member Price When you Buy 2,,,,,,Oroweat | Sun-Maid,2026-02-25,2026-03-03,Bakery
+2026-02-26T15:37:50.911894,994608936,Campbell's Soup 16.1 to 19-oz. Swanson Broth 32-oz. O Organics® Dry Pasta 16-oz.,BUY 2 GET 3 FREE Member Price When you Buy 5,,,,,,Campbell's | Swanson | O Organics®,2026-02-25,2026-03-03,Pantry
+2026-02-26T15:37:51.377590,994608960,Signature SELECT® Ice Cream 1.5-qt. Novelties 4-ct. Baskin Robbins Ice Cream,,,,2.99,ea member price,,Signature SELECT® | Baskin Robbins,2026-02-25,2026-03-03,Frozen
+2026-02-26T15:37:51.739576,994608984,"Lucerne® Shredded, Sliced or Chunk Cheese",,,,1.99,ea member price,,Lucerne®,2026-02-25,2026-03-03,Dairy & Eggs
+2026-02-26T15:37:52.362088,994608968,"Modelo 18-pack, 12-oz. Athletic 12-pack, 12-oz. Coors or Bud 30-pack, 12-oz. Michelob 24-pack, 12-oz.",,,,19.99,member price,,Modelo | Athletic Brewing Company | Coors | Budweiser | Michelob,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:37:52.994918,994611707,Signature SELECT® or Fresh Express Salad,EARN 2X POINTS,,2 for,3.0,member price,,Signature SELECT® | Fresh Express,2026-02-25,2026-04-28,Produce
+2026-02-26T15:37:53.510840,994611710,Health-Ade Kombucha,Earn 2x POINTS,,2 for,7.0,member price,,Health-Ade,2026-02-25,2026-04-28,Beverages
+2026-02-26T15:37:54.138491,994612158,Sumo Citrus,EARN 4x POINTS,,,3.99,lb member price,,Sumo Citrus,2026-02-25,2026-03-03,Produce
+2026-02-26T15:37:54.784314,994612368,Red Baron Pizza,,,,3.99,ea member price,,Red Baron,2026-02-25,2026-03-03,Frozen
+2026-02-26T15:37:55.154977,994612341,Guerrero Tostadas,,,,2.99,ea member price,,Guerrero,2026-02-25,2026-03-03,Pantry
+2026-02-26T15:37:55.843274,994612665,Frank Family Chardonnay,Up to 20% OFF ALL 750-ML. WINE SPIRITS*,,,29.99,ea member price when you buy 6 or more,,Frank Family,2026-02-28,2026-03-01,Beverages
+2026-02-26T15:37:56.211543,994612672,Tito's,,,,13.99,ea member price when you buy 6 or more,,Tito's,2026-02-28,2026-03-01,Beverages
+2026-02-26T15:37:56.672978,994612731,"Vitali or J. Brandt 750-ml., Barefoot Cellars 750-ml.",,,,5.0,ea member price,,Vitali | J. Brandt | Barefoot,2026-02-27,2026-02-27,Beverages
+2026-02-26T15:37:57.137667,994613361,Signature SELECT® Utility Lighter,,,2 for,7.0,member price,,Signature SELECT®,2026-02-25,2026-03-03,Household
+2026-02-26T15:37:57.648642,994611771,Dyed Daisy Poms,,,,6.99,member price,,,2026-02-25,2026-03-03,Floral
+2026-02-26T15:37:57.951629,994611793,"Platinum 7X 1.75-ltr. Bacardi 750-ml. VMC Cocktails 4-pack, 355-ml.",,,,11.99,member price,,Platinum 7X | Bacardi | VMC Cocktails,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:37:58.385251,994612398,Gatorade,,,,7.99,ea member price,,Gatorade,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:37:58.964745,994612668,Bogle,"UP TO 20% OFF MIX & MATCH OVER 1,500 ITEMS ALL 750-ML. WINE & SPIRITS*",,,6.99,ea member price when you buy 6 or more,,Bogle,2026-02-28,2026-03-01,Beverages
+2026-02-26T15:37:59.433498,994612669,Jameson,"UP TO 20% OFF MIX & MATCH OVER 1,500 ITEMS ALL 750-ML. WINE & SPIRITS*",,,16.99,ea member price when you buy 6 or more,,Jameson,2026-02-28,2026-03-01,Beverages
+2026-02-26T15:37:59.816396,994612739,"7UP 10-pack, 7.5-oz. Lipton Tea 12-pack, 16.9-oz. Pure Leaf 6-pack, 16.9-oz.",,,,5.0,ea member price,,7UP | Lipton | Pure Leaf,2026-02-27,2026-02-27,Beverages
+2026-02-26T15:38:00.684605,994613213,Dove Chocolate Candy,,,,9.99,member price,,Dove,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:01.289127,994613219,M & M's Easter Lay Down Bag,,,,4.99,member price,,M&Ms,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:02.122787,994613355,Signature SELECT® Travel Size Hand Sanitizer,EARN 2x POINTS,,2 for,3.0,member price,,Signature SELECT®,2026-02-25,2026-03-03,Personal Care
+2026-02-26T15:38:02.859827,994613360,Signature Care® or Signature SELECT® Pain Relief,,,,13.99,member price,,Signature Care® | Signature SELECT®,2026-02-25,2026-03-03,Health & Wellness
+2026-02-26T15:38:03.596970,994613380,Signature Care® Dental Flossers,,,2 for,6.0,member price,,Signature Care®,2026-02-25,2026-03-03,Personal Care
+2026-02-26T15:38:04.235860,994613394,GoMacro Bar,,,2 for,5.0,member price,,GoMacro,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:04.599121,994613397,LÄRABAR,,,,6.99,member price,,Lärabar,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:04.955516,994613424,Signature Care® Food Storage,,,2 for,7.0,member price,,Signature Care®,2026-02-25,2026-03-03,Household
+2026-02-26T15:38:05.483630,994613426,Schick Hydro or Intuition Razor,,,,6.99,ea,10.99,Schick,2026-02-25,2026-03-03,Personal Care
+2026-02-26T15:38:06.237667,994613452,Boost High Protein Shakes,,,,10.99,member price,,Boost,2026-02-25,2026-03-03,Health & Wellness
+2026-02-26T15:38:06.702953,994611661,"Large Mango, Red, Orange, Yellow or Green Bell Pepper",,,4 for,5.0,member price,,,2026-02-25,2026-03-03,Produce
+2026-02-26T15:38:07.194329,994611658,"Signature SELECT® Chicken Boneless Skinless Breasts, Thighs or Wings",,,,2.99,lb member price,,Signature SELECT®,2026-02-25,2026-03-03,Meat & Seafood
+2026-02-26T15:38:07.611614,994611750,Muffins,,,,4.99,member price,,,2026-02-25,2026-03-03,Bakery
+2026-02-26T15:38:08.096943,994611742,Signature SELECT® or O Organics® Coffee,EARN 2x POINTS,,,29.99,member price,,Signature SELECT® | O Organics®,2026-02-25,2026-04-28,Beverages
+2026-02-26T15:38:09.065636,994611659,Nabisco Snack Crackers 3.5 to 9.1-oz. Ritz Crackers 8.8 to 13.7-oz. Chips Ahoy! Cookies 9.5 to 13-oz. Cheez-It or Snap'd Crackers 7.5 to 12.4-oz.,,,,2.49,ea member price when you buy 2,,Nabisco | Cheez-It,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:09.573501,994611781,Open Nature® Granola,Earn 2x POINTS,,,3.99,member price,,Open Nature,2026-02-25,2026-04-28,Pantry
+2026-02-26T15:38:10.188612,994611765,Boar's Head Green Salad,,,,8.99,ea,,Boar's Head,2026-02-25,2026-03-03,Deli & Prepared Foods
+2026-02-26T15:38:10.881155,994611800,"Decoy, La Crema or Gérard Bertrand",,,,14.99,ea member price when you buy 6 or more,,Decoy | La Crema | Gérard Bertrand,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:38:11.579547,994611748,Signature SELECT® Trash Bags,EARN 2x POINTS,,,8.99,member price,,Signature SELECT,2026-02-25,2026-04-28,Household
+2026-02-26T15:38:12.273283,994611799,"Kendall-Jackson Vintner's Reserve, Ferrari-Carano or Oyster Bay",,,,10.99,ea member price when you buy 6 or more,,Kendall-Jackson | Ferrari-Carano |Oyster Bay,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:38:12.749431,994611662,Signature SELECT® or Bonduelle Salad Bowl,,,,1.99,ea member price,,Signature SELECT® | Bonduelle,2026-02-25,2026-03-03,Deli & Prepared Foods
+2026-02-26T15:38:13.311227,994611766,Brownies,,,,7.99,,,,2026-02-25,2026-03-03,Bakery
+2026-02-26T15:38:13.795961,994611773,Festival of Flowers Bouquet,,,,14.99,,,,2026-02-25,2026-03-03,Floral
+2026-02-26T15:38:14.452583,994611792,Painted Sunflowers,,,,7.99,,,,2026-02-25,2026-03-03,Floral
+2026-02-26T15:38:15.227916,994611788,Dennison's Chili with Beans,Earn 2x POINTS,,3 for,5.0,member price,,Dennison's,2026-02-25,2026-04-28,Pantry
+2026-02-26T15:38:15.753562,994611784,Signature SELECT® Baby Wipes,EARN 2X POINTS,,,5.99,member price,,Signature SELECT,2026-02-25,2026-04-28,Personal Care
+2026-02-26T15:38:16.439254,994611786,Happy Holi Bouquet,,,,16.99,,,,2026-02-25,2026-03-03,Floral
+2026-02-26T15:38:16.963588,994611698,Pork Shoulder Picnic Roast,EARN 2X POINTS,,,1.99,lb member price,,,2026-02-25,2026-04-28,Meat & Seafood
+2026-02-26T15:38:17.506151,994611733,Boar's Head Cracked Peppermill Turkey,,,,12.99,lb member price,,Boar's Head,2026-02-25,2026-03-03,Deli & Prepared Foods
+2026-02-26T15:38:18.071466,994611687,Signature SELECT® 80% Lean Ground Beef,,,,6.99,lb member price,,Signature SELECT®,2026-02-25,2026-03-03,Meat & Seafood
+2026-02-26T15:38:18.599614,994611675,Signature SELECT® Pork Tenderloin,,,,4.99,lb member price,,Signature SELECT®,2026-02-25,2026-03-03,Meat & Seafood
+2026-02-26T15:38:19.173480,994611713,Sockeye Salmon Fillet,,,,14.99,lb member price,,,2026-02-25,2026-03-03,Meat & Seafood
+2026-02-26T15:38:19.742865,994611683,Signature SELECT® Boneless Skinless Chicken Breasts or Thighs,EARN 2x POINTS,,,9.99,ea member price,,Signature SELECT®,2026-02-25,2026-04-28,Meat & Seafood
+2026-02-26T15:38:20.529442,994611738,Signature Cafe® Breakfast Burrito,,,,5.99,ea,,Signature Cafe®,2026-02-25,2026-03-03,Deli & Prepared Foods
+2026-02-26T15:38:21.218241,994611758,Artisan Garlic Bread,,,,4.49,,,,2026-02-25,2026-03-03,Bakery
+2026-02-26T15:38:21.782070,994611714,Hass Avocado,,,3 for,5.0,member price,,,2026-02-25,2026-03-03,Produce
+2026-02-26T15:38:22.413069,994611703,Jumbo Snow Crab Clusters,,,,12.99,lb member price,,,2026-02-25,2026-03-03,Meat & Seafood
+2026-02-26T15:38:22.915739,994611678,Open Nature® Assorted Lamb Shoulder Chops,,,,8.99,lb member price,,Open Nature,2026-02-25,2026-03-03,Meat & Seafood
+2026-02-26T15:38:23.620901,994611693,USDA Choice Round Strips for Stir Fry or Cube Steak,Earn 2x POINTS,,,9.99,lb member price,,,2026-02-25,2026-04-28,Meat & Seafood
+2026-02-26T15:38:24.141609,994612150,Signature SELECT® Boneless Pork Top Loin Chops,EARN 2x POINTS,,,3.99,lb member price,,Signature SELECT®,2026-02-25,2026-04-28,Meat & Seafood
+2026-02-26T15:38:24.683073,994612148,Broccoli Crowns,,,,2.99,lb member price,,,2026-02-25,2026-03-03,Produce
+2026-02-26T15:38:25.008003,994612154,Lemon,,,,0.99,ea,,,2026-02-25,2026-03-03,Produce
+2026-02-26T15:38:25.535940,994612152,Hot House Tomatoes,,,,2.99,lb member price,,,2026-02-25,2026-03-03,Produce
+2026-02-26T15:38:26.052085,994612392,"Coca-Cola, Pepsi or 7UP",,,,2.29,ea member price,,Coca-Cola | Pepsi | 7UP,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:38:26.597461,994612328,Primo Taglio® Ham Off the Bone or Cheddar Cheese,,,,7.99,lb member price,,Primo Taglio®,2026-02-25,2026-03-03,Deli & Prepared Foods
+2026-02-26T15:38:27.062433,994612345,Ragú Pasta Sauce,,,,1.99,ea member price,,Ragu,2026-02-25,2026-03-03,Pantry
+2026-02-26T15:38:27.676705,994612344,Yakult Probiotic Drink,,,,2.99,ea member price,,Yakult,2026-02-25,2026-03-03,Dairy & Eggs
+2026-02-26T15:38:28.104014,994612331,Signature SELECT® Thin Sliced Bread,,,,2.99,ea member price,,Signature SELECT®,2026-02-25,2026-03-03,Bakery
+2026-02-26T15:38:28.713892,994612335,"Chobani Flip, Creations or Protein Greek Yogurt",,,,0.99,ea member price,,Chobani,2026-02-25,2026-03-03,Dairy & Eggs
+2026-02-26T15:38:29.389866,994612324,Waterfront Bistro® Tempura Shrimp with Sauce,,,,2.99,ea member price,,WATERFRONT BISTRO,2026-02-25,2026-03-03,Frozen
+2026-02-26T15:38:29.805868,994612354,Coffee mate Creamer,,,,2.99,ea member price,,Coffee-mate,2026-02-25,2026-03-03,Dairy & Eggs
+2026-02-26T15:38:30.548765,994612353,Morning Star Farms Meatless,,,,3.49,ea member price,,Morning Star Farms,2026-02-25,2026-03-03,Frozen
+2026-02-26T15:38:31.141640,994612385,Charmin Bath Tissue 6-Mega XL or 9-Mega Rolls. Bounty Paper Towels 4-Triple or 6-Double Rolls.,,,,9.99,ea member price,,Charmin | Bounty,2026-02-25,2026-03-03,Household
+2026-02-26T15:38:31.650221,994612382,Waterloo Sparkling Water,,,,3.99,ea member price,,Waterloo Sparkling Water,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:38:32.212456,994612393,"High Noon 8-pack, 355-ml. cans. Firestone or Heineken 12-pack, 12-oz.",,,,15.99,ea member price,,High Noon | Firestone | Heineken,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:38:32.669405,994612396,Jack Daniel's,,,,16.99,ea member price,,Jack Daniel s,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:38:33.208267,994612397,Arm & Hammer Laundry Detergent 100.5 to 105-oz. Liquid. OxiClean Laundry Stain Remover 3-lb. Tub or 24-ct. Packs.,,,,6.99,ea member price,,Arm & Hammer | OxiClean,2026-02-25,2026-03-03,Household
+2026-02-26T15:38:33.578376,994612160,Nature's Own Sandwich Bread,EARN 2X POINTS,,,3.99,member price,,Nature's Own,2026-02-25,2026-04-28,Bakery
+2026-02-26T15:38:33.897893,994612156,"Pacifico, Topo Chico or New Belgium",,,,17.99,member price,,Pacifico | Topo Chico | New Belgium,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:38:34.656422,994612167,Cucumber,,,,0.99,ea,,,2026-02-25,2026-03-03,Produce
+2026-02-26T15:38:35.415598,994612168,SugarBee Apples,,,,2.99,lb member price,,,2026-02-25,2026-03-03,Produce
+2026-02-26T15:38:36.276531,994612162,Signature SELECT® Hot Dog or Hamburger Buns,EARN 2X POINTS,,,3.49,member price,,Signature SELECT®,2026-02-25,2026-04-28,Bakery
+2026-02-26T15:38:37.153458,994612405,Tidy Cats Litter,,,,9.99,ea member price,,Tidy Cats,2026-02-25,2026-03-03,Household
+2026-02-26T15:38:37.785832,994612355,Lucerne® Butter,,,,3.99,ea member price,,Lucerne®,2026-02-25,2026-03-03,Dairy & Eggs
+2026-02-26T15:38:38.134928,994612688,Fuji Apples or Large Navel Oranges,,,5 lbs for,5.0,member price,,,2026-02-27,2026-02-27,Produce
+2026-02-26T15:38:38.603076,994612677,JaM Cellars Butter,,,,12.49,ea member price when you buy 6 or more,,JaM Cellars,2026-02-28,2026-03-01,Beverages
+2026-02-26T15:38:39.179233,994612675,USDA Choice Beef Chuck Short Ribs,,,,5.0,lb member price,,,2026-02-27,2026-02-27,Meat & Seafood
+2026-02-26T15:38:39.750626,994612695,Signature SELECT® Lunchmeat or Dibrova Sausage 16-oz. Miller's Premium Beef Franks 14-oz.,,,,5.0,ea member price,,Signature SELECT® | Dibrova | Miller's,2026-02-27,2026-02-27,Meat & Seafood
+2026-02-26T15:38:40.230681,994612683,Folie à Deux Ménage à Trois,"UP TO 20% OFF MIX & MATCH OVER 1,500 ITEMS ALL 750-ML. WINE & SPIRITS*",,,6.29,ea member price when you buy 6 or more,,Menage a'Trois,2026-02-28,2026-03-01,Beverages
+2026-02-26T15:38:40.970802,994612716,Value Corner® Bath Tissue 12-Rolls. Paper Towels 6-Rolls.,,,,5.0,ea member price,,Value Corner®,2026-02-27,2026-02-27,Household
+2026-02-26T15:38:41.656132,994612678,La Marca Prosecco,"UP TO 20% OFF MIX & MATCH OVER 1,500 ITEMS ALL 750-ML. WINE & SPIRITS*",,,13.99,ea member price when you buy 6 or more,,La Marca,2026-02-28,2026-03-01,Beverages
+2026-02-26T15:38:42.185860,994613368,Dove or Dove Men's Deodorant,,,,8.99,member price,,,2026-02-25,2026-03-03,Personal Care
+2026-02-26T15:38:42.579311,994613084,Galbani String or Stick Cheese,,,,3.99,ea member price,,Galbani,2026-02-25,2026-03-03,Dairy & Eggs
+2026-02-26T15:38:43.237474,994613221,Band-Aid Bandages or Q-Tips Cotton Swabs,,,,5.99,member price,,Band-Aid | Q-Tips,2026-02-25,2026-03-03,Health & Wellness
+2026-02-26T15:38:43.837123,994613215,Ferrero Rocher Squares,,,,4.49,member price,,Ferrero Rocher,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:44.143232,994613225,Ferrero Rocher Diamond Box,,,,12.99,member price,,Ferrero Rocher,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:44.756707,994613231,Russell Stover Chocolate Bunny,,,2 for,6.0,member price,,Russell Stover,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:45.069856,994613248,Listerine Mouthwash,,,,8.99,member price,,Listerine,2026-02-25,2026-03-03,Personal Care
+2026-02-26T15:38:45.501526,994613125,Blue Diamond Almondmilk,,,,3.99,member price,,Blue Diamond,2026-02-25,2026-03-03,Dairy & Eggs
+2026-02-26T15:38:46.060917,994613112,Lactaid Milk 52 to 64-oz. Creamer Quart.,,,,4.49,member price,,LACTAID®,2026-02-25,2026-03-03,Dairy & Eggs
+2026-02-26T15:38:46.694794,994613095,Trans-Ocean Crab Classics,,,2 for,5.0,member price,,Trans-Ocean,2026-02-25,2026-03-03,Meat & Seafood
+2026-02-26T15:38:47.055955,994613100,Clam Shack Soup,,,,9.99,ea member price,,Clam Shack,2026-02-25,2026-03-03,Deli & Prepared Foods
+2026-02-26T15:38:47.519221,994613077,Naked Juice,EARN 2X POINTS,,2 for,7.0,member price,,Naked,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:38:48.070454,994613102,Priscilla Quiche Wedge,,,,3.99,ea member price,,,2026-02-25,2026-03-03,Deli & Prepared Foods
+2026-02-26T15:38:48.812785,994613114,Happy Egg Organic Free Range Eggs,,,,5.99,ea member price,,The Happy Egg Co.,2026-02-25,2026-03-03,Dairy & Eggs
+2026-02-26T15:38:49.340465,994613091,Signature SELECT® Peeled Baby-Cut Carrots,Earn 4x Points,,,1.99,ea member price,,Signature SELECT®,2026-02-25,2026-03-03,Produce
+2026-02-26T15:38:50.079749,994613080,Nonni's Biscotti,,,,3.99,member price,,Nonni's,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:50.663058,994613092,Challenge Spreadable Butter Tub,,,,2.99,member price,,Challenge Butter,2026-02-25,2026-03-03,Dairy & Eggs
+2026-02-26T15:38:51.196345,994613121,Kellogg's All-Bran Cereal,,,,4.99,ea member price,,Kellogg's,2026-02-25,2026-03-03,Pantry
+2026-02-26T15:38:51.856863,994613289,Betty Crocker Cake Décor,25% OFF Member Price,,,,,,Betty Crocker,2026-02-25,2026-03-03,Pantry
+2026-02-26T15:38:52.383984,994613255,Easter Home Décor,25% OFF Member Price,,,,,,,2026-02-25,2026-03-03,Other
+2026-02-26T15:38:52.670263,994613264,Kids Spring Tableware,25% OFF Member Price,,,,,,,2026-02-25,2026-03-03,Other
+2026-02-26T15:38:53.194094,994613247,Kids Plush,25% OFF Member Price,,,,,,,2026-02-25,2026-03-03,Other
+2026-02-26T15:38:53.654703,994613288,Kinder Bueno,,,10 for,10.0,member price,,Kinder,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:54.142198,994613313,Nerds Gummy Clusters Bag,,,,7.99,member price,,Nerds,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:54.823107,994613295,Crayola Crayons or Markers,20% OFF Member Price,,,,,,Crayola,2026-02-25,2026-03-03,Other
+2026-02-26T15:38:55.223602,994613281,Easter Kids Toys,25% OFF Member Price,,,,,,,2026-02-25,2026-03-03,Other
+2026-02-26T15:38:55.574040,994613257,Paas Egg Coloring Kits,25% OFF Member Price,,,,,,PAAS,2026-02-25,2026-03-03,Other
+2026-02-26T15:38:56.212044,994613305,Mars Share Size Candy,,,2 for,5.0,member price,,,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:56.605864,994613331,Lindor Truffle Candy,BUY 1 GET 1 50% OFF Member Price,,,,,,Lindor,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:57.243593,994613282,Hot Wheels Basic Car,,,4 for,5.0,member price,,Hot Wheels,2026-02-25,2026-03-03,Other
+2026-02-26T15:38:57.797349,994613262,Bubbles or Chalk,25% OFF Member Price,,,,,,,2026-02-25,2026-03-03,Other
+2026-02-26T15:38:58.410889,994613332,Hershey Share Size Bag,,,,7.49,member price,,Hershey's,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:38:59.053707,994613303,Tylenol Pain Relief,,,,16.99,member price,,Tylenol,2026-02-25,2026-03-03,Health & Wellness
+2026-02-26T15:38:59.717004,994613446,Baby essentials**,SAVE $10 when you buy 2,,,,,,,2026-02-25,2026-03-03,Personal Care
+2026-02-26T15:39:00.035875,994613415,"Native Shampoo, Conditioner or Body Wash",EARN 2x POINTS,,,10.99,member price,,Native,2026-02-25,2026-03-03,Personal Care
+2026-02-26T15:39:00.565124,994613413,Air Wick Essential Mist Diffuser Starter Kit,,,,13.99,ea,15.99,Air Wick,2026-02-25,2026-03-03,Household
+2026-02-26T15:39:01.405326,994613129,Banquet Pot Pie,,,10 for,10.0,member price,,Banquet,2026-02-25,2026-03-03,Frozen
+2026-02-26T15:39:01.717749,994613113,Starbucks,Earn 4x POINTS,,,11.99,member price,,Starbucks,2026-02-25,2026-03-03,Beverages
+2026-02-26T15:39:02.281736,994611663,Wine & Spirits,UP TO 20% OFF* when you buy 6 or more bottles,,,,,,,2026-02-28,2026-03-01,Beverages
+2026-02-26T15:39:02.848271,995635302,Pharmacy,,,,,,,,2026-02-25,2026-03-03,Health & Wellness
+2026-02-26T15:39:03.466370,994613070,Signature SELECT® Roasted & Salted In-Shell Pistachios,EARN 2X POINTS,,,5.0,ea member price,,Signature SELECT®,2026-02-25,2026-04-28,Snacks
+2026-02-26T15:39:03.872310,994612748,Overjoyed™ Boutique Rose Alstroemeria Bouquet,,,,5.0,ea member price,,Overjoyed™,2026-02-27,2026-02-27,Floral
+2026-02-26T15:39:04.422760,994612708,Waterfront Bistro® Extra Jumbo Raw Shrimp,,,,5.0,lb member price,,WATERFRONT BISTRO®,2026-02-27,2026-02-27,Meat & Seafood
+2026-02-26T15:39:05.042014,994613453,Gerber Puffs Snacks,,,,2.99,member price,,Gerber,2026-02-25,2026-03-03,Snacks
+2026-02-26T15:39:05.580374,994613229,Crest Pro Health or 3D White,,,,6.99,member price,,Crest,2026-02-25,2026-03-03,Personal Care
+2026-02-26T15:39:06.206796,994612697,Sonoma-Cutrer Sonoma Coast Chardonnay,Up to 20% OFF All 750-ml. Wine & Spirits,,,16.99,ea member price when you buy 6 or more,,,2026-02-28,2026-03-01,Beverages
+2026-02-26T15:39:06.583361,994612699,Signature SELECT® Pork Spareribs,,,2 lbs for,5.0,member price,,Signature SELECT®,2026-02-27,2026-02-27,Meat & Seafood
+2026-02-26T15:39:07.046220,994612671,Cazadores,,,,19.99,ea member price when you buy 6 or more,,Cazadores,2026-02-28,2026-03-01,Beverages
+2026-02-26T15:39:07.748235,994613329,Pharmacy,,,,,,,,2026-02-25,2026-03-03,Health & Wellness
+2026-02-26T15:39:08.514770,994613437,GE Light Bulbs,Spend $10 Save $5,,,,,,GE,2026-02-25,2026-03-03,Household
+2026-02-26T15:39:08.825909,994612874,Fresh Pass,5% off,,,,,,,2026-02-25,2026-03-03,Other
+2026-02-26T15:39:09.483756,994612402,Safeway for u,,,,,,,,2026-02-25,2026-03-03,Other
+2026-02-26T15:39:09.851696,994612377,Quaker Cap'n Crunch's or Life Cereal,,,,2.99,ea member price,,Quaker,2026-02-25,2026-03-03,Pantry
+2026-02-26T15:39:10.317376,994612166,Safeway for u,,,,,,,,2026-02-25,2026-03-03,Other
+2026-02-26T15:39:10.755164,994612317,Land O'Frost Sub Kit,,,,4.99,ea member price,,Land O'Frost,2026-02-25,2026-03-03,Deli & Prepared Foods
+2026-03-04T15:47:50.082255,996534490,Safeway Stock up,,,,,,,,2026-03-04,2026-03-10,Other
+2026-03-04T15:47:50.654856,996534580,Scotch-Brite Sponges,EARN 4x POINTS,,,5.99,ea,6.99,Scotch-Brite,2026-03-04,2026-03-10,Household
+2026-03-04T15:47:51.070261,996534596,Pharmacy,,,,,,,,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:47:51.799622,996534149,Signature SELECT® or Bonduelle Bistro Salad Bowl,,,2 for,5.0,member price,,Signature SELECT® | Bonduelle,2026-03-06,2026-03-06,Produce
+2026-03-04T15:47:52.347911,996535158,Baby essentials**,SPEND $25 SAVE $5,,,,,,,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:47:52.937900,996534370,Starbucks,,,,11.99,member price,,Starbucks,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:47:53.299074,996534864,Puffs Facial Tissue,,,,4.99,ea member price,,Puffs,2026-03-04,2026-03-10,Household
+2026-03-04T15:47:53.960670,996534583,Vicks ZzzQuil Sleep-Aid,,,,10.99,member price,,Vicks,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:47:54.435079,996535043,Hershey Easter Candy,,,,5.49,member price,,Hershey's,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:47:55.302104,996534354,"Foster's, Coors, Bud, Lagunitas, Michelob or Kirin",,,2 for,5.0,member price,,Foster's | Coors | Bud | Lagunitas | Michelob | Kirin,2026-03-06,2026-03-06,Beverages
+2026-03-04T15:47:55.654104,996534377,Sargento String or Stick Cheese 9 to 12-oz. Shareables 6-oz.,EARN 2X POINTS,,,4.99,member price,,Sargento,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:47:56.324848,996534568,Mucinex Fast-Max Cold & Flu Relief,,,,18.99,member price,,Mucinex,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:47:57.015522,996535152,Pampers Swaddlers or Easy Ups Super Pack,EARN 4X POINTS,,,27.99,ea,30.99,Pampers,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:47:57.658246,996535159,Desitin Rash Cream or Aveeno Baby Care,,,,7.99,member price,,Desitin | Aveeno,2026-03-04,2026-03-17,Personal Care
+2026-03-04T15:47:58.245726,996533899,Fresh Atlantic Salmon Whole Fillet,,,,8.99,lb member price,,,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:47:58.950618,996533915,Waterfront Bistro® Colossal Raw Shrimp,,,,5.99,lb member price,,WATERFRONT BISTRO®,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:47:59.483805,996533928,"Modelo, Corona, Pacifico, Stella Artois or Michelob 12-pack, 11.2 to 12-oz. Lucky One 8-pack, 355-ml.",,,,13.99,member price,,Modelo | Corona | Pacifico | Stella Artois | Michelob | Lucky One,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:48:00.064517,996533941,Lucerne® Milk Gallon. Challenge or Danish Creamery Butter 16-oz. Sticks or Cubes. Challenge Spreadable Butter 13 to 15-oz.,,,,3.99,ea member price,,Lucerne® | Challenge | Danish,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:48:00.763514,996533942,Häagen-Dazs Ice Cream 14-oz. Novelties 3-ct. Dreyer's 1.5-qt.,EARN 4X POINTS,,2 for,6.0,member price,,Häagen-Dazs | Dreyer's,2026-03-04,2026-03-10,Frozen
+2026-03-04T15:48:01.402511,996534571,CLIF Bars,EARN 4X POINTS,,,6.99,member price,,Clif Bar,2026-03-04,2026-03-17,Snacks
+2026-03-04T15:48:02.165725,996534616,Align Probiotics,,,,29.99,member price,,Align,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:48:02.977118,996535078,Easter Egg Dye Kit,25% OFF Member Price,,,,,,,2026-03-04,2026-03-10,Other
+2026-03-04T15:48:03.655462,996534073,Signature SELECT® Canned Fruit,EARN 4x POINTS,,,1.99,member price,,Signature SELECT,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:48:04.237370,996534610,Ensure Max Protein Shakes,EARN 4X POINTS,,,12.99,member price,,Ensure,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:48:04.663344,996535177,Earth's Best Organic Crunchy Sticks,,,2 for,5.0,member price,,Earth's Best,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:48:05.228576,996535131,Signature SELECT® Baby Wipes,EARN 2x POINTS,,,5.99,member price,,Signature SELECT®,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:48:05.943875,996533919,Artesano Bread 20-oz. Buns 13.55 to 19-oz.,,,,4.49,member price,,Artesano,2026-03-04,2026-03-10,Bakery
+2026-03-04T15:48:06.275339,996533945,Best Foods Mayonnaise,,,,3.99,ea member price,,Best Foods,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:48:06.597810,996533904,Signature SELECT® 90% Lean Ground Beef Value Pack. Premium Bacon 1-lb.,,,,4.99,lb member price,,Signature SELECT®,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:48:07.184804,996535062,5-hour Energy Shots,,,2 for,5.0,member price,,5 Hour Energy,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:48:07.638499,996533922,Peet's Coffee,,,,7.99,ea member price when you buy 2,,Peet's Coffee,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:48:08.111878,996533935,Barilla Pasta,,,,0.99,ea member price,,Barilla,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:48:08.498296,996534022,"White Claw or Lagunitas 12-pack, 12-oz. Pabst 30-pack, 12-oz.",,,,19.99,member price,,White Claw | Lagunitas | Pabst,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:48:09.184115,996534062,Nabisco Family Size Snack Crackers,EARN 4X POINTS,,,3.99,ea member price when you buy 2,,Nabisco,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:48:09.829146,996534873,Tide Laundry Detergent 73 to 84-oz. Liquid. Pods 25 to 42-ct. Pods.,,,,7.99,ea member price,,Tide,2026-03-04,2026-03-10,Household
+2026-03-04T15:48:10.250512,996534787,Hormel Natural Choice Lunchmeat,,,,2.99,ea member price,,Hormel,2026-03-04,2026-03-10,Deli & Prepared Foods
+2026-03-04T15:48:10.717216,996534530,Dove Dry Spray Deodorant,,,,9.99,member price,,Dove,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:48:11.173117,996535053,M&M's or Dove Easter Candy,,,,4.99,member price,,M&M's | Dove,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:48:11.829792,996534538,Colgate Twin Pack,EARN 4x POINTS,,,7.99,ea,9.99,Colgate,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:48:12.473192,996534755,Safeway Stock up,EARN 4X POINTS,,,,,,,2026-03-04,2026-03-10,Other
+2026-03-04T15:48:12.930846,996535115,STEM Light Trap Kit,$5 OFF Member Price,,,,,,STEM,2026-03-04,2026-03-10,Household
+2026-03-04T15:48:13.377364,996533989,Green Asparagus,,,,3.99,lb member price,,,2026-03-04,2026-03-10,Produce
+2026-03-04T15:48:13.727307,996534000,NatureSweet Cherubs,,,2 for,5.0,member price,,Nature Sweet,2026-03-04,2026-03-10,Produce
+2026-03-04T15:48:14.281642,996534030,Gain Flings 60-ct. Laundry Detergent 144-oz.,EARN 4X POINTS,,,15.99,member price,,Gain,2026-03-04,2026-03-10,Household
+2026-03-04T15:48:14.759221,996533995,Fresh Express Family Size Iceberg Shreds,EARN 2X POINTS,,,2.99,ea member price,,Fresh Express,2026-03-04,2026-03-10,Produce
+2026-03-04T15:48:15.257153,996534024,Primo Taglio® Roast Beef,,,,13.99,lb member price,,Primo Taglio®,2026-03-04,2026-03-10,Deli & Prepared Foods
+2026-03-04T15:48:15.709537,996534066,Fresh Cut Tulips,,,,9.99,,,,2026-03-04,2026-03-10,Floral
+2026-03-04T15:48:16.059371,996533909,Strawberries 2-lb. Raspberries or Blackberries 12-oz.,,,,4.99,ea member price,,,2026-03-04,2026-03-10,Produce
+2026-03-04T15:48:16.642257,996534077,McCormick Perfect Pinch Seasoning,EARN 4X POINTS,,,3.99,member price,,McCormick,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:48:17.296949,996534014,Irish Soda Bread,,,,4.99,,,,2026-03-04,2026-03-10,Bakery
+2026-03-04T15:48:17.714755,996534031,"Cazadores, Crown Royal or Ketel One",,,,19.79,ea member price when you buy 6 or more,,Cazadores | Crown Royal | Ketel One,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:48:18.172378,996534054,Moonseries Carnations,,,,5.99,member price,,,2026-03-04,2026-03-10,Floral
+2026-03-04T15:48:18.577053,996534057,Seafood Salad,,,,8.99,lb,,,2026-03-04,2026-03-10,Deli & Prepared Foods
+2026-03-04T15:48:18.979113,996533964,Jennie-O 99% Lean Ground Turkey Breast,,,,8.99,ea mem,,Jennie-O,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:48:19.742126,996534028,Sweet Paradise Bread,,,,6.99,,,Sweet Paradise,2026-03-04,2026-03-10,Bakery
+2026-03-04T15:48:20.403471,996534039,"Rombauer, Frank Family or Domaine Carneros",,,,37.99,member price,,Rombauer | Frank Family | Domaine Carneros,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:48:21.028422,996533999,Cosmic Crisp Apples,,,,1.99,lb member price,,,2026-03-04,2026-03-10,Produce
+2026-03-04T15:48:21.445698,996534067,BelGioioso Fresh Mozzarella,,,,7.99,ea member price,,Belgioioso,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:48:22.195677,996534072,Danish Strip,,,,5.99,member price,,,2026-03-04,2026-03-10,Bakery
+2026-03-04T15:48:22.813932,996534046,"La Crema, J Vineyards or J. Lohr",,,,13.99,ea member price when you buy 6 or more,,La Crema | J Vineyards | J. Lohr,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:48:23.454671,996533973,Large Cooked Shrimp,,,,6.99,lb member price,,,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:48:23.948909,996534070,Smoked Applewood or Peppered Bacon,,,,7.99,lb member price,,,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:48:24.521530,996534019,8-Piece Fried Chicken,,,,9.99,ea,,,2026-03-04,2026-03-10,Deli & Prepared Foods
+2026-03-04T15:48:25.113156,996533996,Signature SELECT® Boneless Skinless Chicken Breasts,,,,3.99,lb,,Signature SELECT,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:48:25.635239,996534080,Mini Orchids in Ceramic,,,,9.99,,,,2026-03-04,2026-03-10,Floral
+2026-03-04T15:48:26.063431,996534158,Classico Pasta Sauce,Earn 4x POINTS,,2 for,5.0,member price,,Classico,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:48:26.713356,996534137,Wild Alaskan Pollock 4-Piece. Fresh Sushi,,,,5.0,ea member price,,,2026-03-06,2026-03-06,Meat & Seafood
+2026-03-04T15:48:27.315717,996534129,Hidden Valley Ranch Dressing,EARN 4x POINTS,,,3.49,member price,,Hidden Valley,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:48:27.766058,996534193,Foster Farms Frozen Prepared Chicken 16 to 24-oz. Amylu Sausage 12-oz.,,,,5.0,ea member price,,Foster FarmsV | Amylu,2026-03-06,2026-03-06,Frozen
+2026-03-04T15:48:28.174519,996534152,McCormick Grill Mates Seasoning,EARN 4X POINTS,,,1.49,member price,,McCormick,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:48:28.821810,996534146,"Pillsbury Cinnamon Rolls, Grands! Biscuits or Crescents",EARN 4X POINTS,,,1.99,ea when you buy 2 member price,,Pillsbury,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:48:29.406991,996534164,Talenti Gelato or Layers,,,2 for,5.0,member price,,Talenti,2026-03-06,2026-03-06,Frozen
+2026-03-04T15:48:29.813101,996534186,Wild Caught Lobster Tail 3-oz. Fresh Atlantic Salmon Portion 7-oz. Farm raised.,,,,5.0,ea member price,,,2026-03-06,2026-03-06,Meat & Seafood
+2026-03-04T15:48:30.548786,996534274,"Betty Crocker Fruit Snacks 6 to 10-ct. Nature Valley, Special K or Nutri-Grain Bars 5 to 12-ct. Kellogg's Pop-Tarts or Rice Krispies Treats 8-ct. General Mills Cereal 8.9 to 12-oz.",EARN 4X POINTS,,,1.99,ea when you buy 4 member price,,Betty Crocker | Nature Valley | Kellogg's | General Mills,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:48:31.034347,996534276,Nabisco Family Size Oreo Cookies 10.68 to 18.71-oz. Cheez-It or Snap'd Crackers 7.5 to 12.4-oz. Kellogg's Club or Town House Crackers 9.5 to 13.8-oz. Pringles Mingles 5.5-oz.,"BUY 1 GET 1 FREE Member Price When you Buy 2, EARN 4X POINTS",,,,,,Nabisco | Cheez-It | Snap'd | Kellogg's | Pringles,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:48:31.645527,996534275,Sargento Sliced or Shredded Cheese 5 to 8-oz. Balanced Breaks 4 to 4.5-oz. Lucerne® Chunk Cheese 6 to 8-oz.,,,,2.49,ea member price,,Sargento | Lucerne,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:48:32.268573,996534342,Safeway Stock up,,,,,,,,2026-03-04,2026-03-10,Other
+2026-03-04T15:48:33.162749,996534357,Signature SELECT® Soda or Seltzer Water 2-ltr. Selected varieties. Crystal Geyser Alpine Spring Water Gallon.,,,5 for,5.0,member price,,Signature SELECT® | Crystal Geyser,2026-03-06,2026-03-06,Beverages
+2026-03-04T15:48:33.898300,996534380,Snyder's Pretzels or Rounds 12 to 16-oz. Cape Cod Potato Chips 6.5 to 8-oz,,,2 for,5.0,member price,,Snyder's | Cape Cod,2026-03-06,2026-03-06,Snacks
+2026-03-04T15:48:34.677313,996534447,Painterland Sisters Icelandic Yogurt,,,,2.79,member price,,Painterland Sisters,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:48:35.267269,996534476,International Women's Day Bouquet,,,,14.99,,,,2026-03-04,2026-03-10,Floral
+2026-03-04T15:48:35.757520,996534345,Apothecary Roses,,,,5.0,ea member price,,,2026-03-06,2026-03-06,Floral
+2026-03-04T15:48:36.454856,996534350,Sparkling Ice,EARN 4X POINTS,,10 for,10.0,member price,,Sparkling Ice,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:48:37.200182,996534353,Betty Crocker Cake Mix 13.25 to 16.25-oz. Favorites Brownie Mix 16.3-oz.,,,4 for,5.0,member price,,Betty Crocker,2026-03-06,2026-03-06,Pantry
+2026-03-04T15:48:37.536513,996534352,Hershey King Size Candy,EARN 4X POINTS,,2 for,5.0,member price,,Hershey's,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:48:37.817579,996534351,Purina or Friskies Cat Food 3.15-lb. Beneful incrediBITES Dog Food 3.5-lb.,,,,5.0,ea member price,,Purina | Friskies | Beneful,2026-03-06,2026-03-06,Other
+2026-03-04T15:48:38.170314,996534368,Marie Callender's Dinner Bowl,,,,3.99,member price,,Marie Callender's,2026-03-04,2026-03-10,Frozen
+2026-03-04T15:48:38.775742,996534404,McCain Fries or Rings,,,,3.49,member price,,McCain,2026-03-04,2026-03-10,Frozen
+2026-03-04T15:48:39.380740,996534391,De Cecco Pasta,,,2 for,5.0,member price,,DeCecco,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:48:39.836086,996534431,Marieke Gouda,,,,7.99,ea member price,,Marieke Gouda,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:48:40.551400,996534437,Kellogg's All-Bran Cereal,,,,4.99,ea member price,,Kellogg's,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:48:41.140718,996534444,Signature SELECT® or Fresh Express Salad,EARN 2x POINTS,,2 for,3.0,member price,,Signature SELECT® | Fresh Express,2026-03-04,2026-03-10,Produce
+2026-03-04T15:48:41.580342,996534634,Fabuloso Multi-Purpose Cleaner,Earn 4x POINTS,,,7.99,ea,9.99,Fabuloso,2026-03-04,2026-03-10,Household
+2026-03-04T15:48:42.226552,996534645,Sumo Citrus,EARN 4x POINTS,,,3.99,lb member price,,,2026-03-04,2026-03-10,Produce
+2026-03-04T15:48:42.868976,996534832,King Arthur Flour,,,,4.99,ea member price,,King Arthur Flour,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:48:43.512797,996534810,Coffee mate Creamer Half gallon. Non Dairy Creamer,EARN 4x POINTS,,,4.99,ea member price,,Coffee-mate,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:48:44.024546,996535029,7UP 2-ltr. Snapple Tea 15.9 to 16-oz. bai 18-oz. Selected varieties. Core Hydration Water 23.9-oz.,,,,1.29,ea member price,,7UP | Snapple | Core,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:48:44.520538,996534788,Johnsonville Breakfast Sausage,,,,4.99,ea member price,,Johnsonville,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:48:45.084879,996534850,Kellogg's Eggo Waffles,,,,1.99,ea member price,,Kellogg's,2026-03-04,2026-03-10,Frozen
+2026-03-04T15:48:45.776705,996534993,"Charmin Bath Tissue 9-Mega XXL or 12-Mega XL Rolls., Bounty Paper Towels 6-Triple or 8-Double",,,,16.99,ea member price,,Charmin | Bounty,2026-03-04,2026-03-10,Household
+2026-03-04T15:48:46.511622,996534856,Sierra Nevada or Elysian,,,,16.99,ea member price,,Sierra Nevada | Elysian,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:48:47.164751,996534801,Simply or Simply Light Orange Juice,,,,3.49,ea member price,,Simply,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:48:47.756923,996534514,Pantene or Head & Shoulders Shampoo or Conditioner,EARN 4x POINTS,,,7.99,member price,,Pantene | Head & Shoulders,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:48:48.207235,996534525,Secret or Old Spice Deodorant,,,,7.99,member price,,Secret | Old Spice,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:48:48.638607,996534512,Axe Deodorant or Hair Care,EARN 4X POINTS,,,6.99,member price,,Axe,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:48:49.326371,996534486,Dove Body Wash,EARN 4X POINTS,,,8.99,member price,,Dove,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:48:49.897200,996534524,Olay Body Wash,Earn 4x POINTS,,,8.99,member price,,Olay,2026-03-04,2026-03-17,Personal Care
+2026-03-04T15:48:50.289889,996534495,Dove Men's Deodorant,EARN 4X POINTS,,,8.99,member price,,Dove,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:48:50.774814,996534554,"Lysol Disinfectant Spray, Wipes or Toilet Bowl Cleaner",EARN 4X POINTS,,,7.49,ea,7.99,Lysol,2026-03-04,2026-03-17,Household
+2026-03-04T15:48:51.120084,996534550,Always Infinity or Radiant Pads,EARN 4X POINTS,,,12.99,member price,,Always,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:48:51.752805,996535052,Feastables Peanut Butter Egg,,,2 for,3.0,member price,,FEASTABLES,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:48:52.351014,996535076,Ghirardelli Bunny Bag,,,,5.99,member price,,Ghirardelli,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:48:53.010331,996535150,Pediasure,,,,13.99,member price,,PediaSure,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:48:53.721586,996535063,Lindor Truffle or Gold Bunny Candy,,,,5.99,member price,,Lindor,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:48:54.236060,996535050,Hershey King Size Bar,,,2 for,4.0,member price,,Hershey's,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:48:54.594300,996535125,Bloom Greens & Superfoods Powder,,,,29.99,member price,,,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:48:55.164393,996535106,Barebells Protein Bars,,,,8.99,member price,,Barebells,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:48:55.896632,996533905,Signature SELECT® Assorted Pork Loin Chops Bone-In. Value Pack. Pork Spareribs,,,,2.99,lb member price,,Signature SELECT®,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:48:56.423051,996533934,"Coca-Cola, Pepsi or 7UP",BUY 2 GET 2 FREE Member Price When you Buy 4,,,,,,Coca-Cola | Pepsi | 7UP,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:48:56.940352,996533948,Lay's Potato Chips or Poppables,EARN 4x POINTS,,,1.99,ea member price,,Lay's,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:48:57.312302,996533956,USDA Choice Boneless Beef Tri Tip Steak,,,,9.99,lb member price,,USDA Choice,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:48:58.082908,996533976,Chef's Counter™ Marinated Boneless Skinless Chicken Breast or Thigh,,,,4.99,ea member price,,Chef's Counter,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:48:58.577829,996534185,Cake Slice,,,2 for,5.0,member price,,,2026-03-06,2026-03-06,Bakery
+2026-03-04T15:48:58.982352,996534272,"Taylor Farms Chopped Salad Kit 7.3 to 13.5-oz., Fresh Express Chopped Salad Kit 6.7 to 13.3-oz.",,,3 for,10.0,member price when you buy 3,,Taylor Farms | Fresh Express,2026-03-04,2026-03-10,Produce
+2026-03-04T15:48:59.408442,996534273,Hass Avocado or Mango,,,4 for,5.0,member price,,,2026-03-04,2026-03-10,Produce
+2026-03-04T15:49:00.060517,996534271,USDA Choice Boneless Beef Tri Tip Roast,,,,5.99,lb member price,,,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:49:00.700380,996534375,Zoi Greek Yogurt,,,,3.99,member price,,Zoi,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:49:01.031812,996534395,La Tortilla Factory Carb Cutting Tortillas,,,,4.99,member price,,La Tortilla Factory,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:49:01.549473,996534412,Gas Rewards,,,,,,,,2026-03-04,2026-03-10,Other
+2026-03-04T15:49:01.872780,996534422,Smithfield Prime Fresh Lunchmeat,,,,4.99,ea member price,,Smithfield,2026-03-04,2026-03-10,Deli & Prepared Foods
+2026-03-04T15:49:02.434380,996534360,Califia Farms Almondmilk or Oatmilk,,,,2.99,member price,,Califia Farms,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:49:03.029012,996534426,Athenos Feta Crumbles,,,,5.99,ea member price,,Athenos,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:49:03.448505,996534445,Horizon Organic Creamer,,,,4.99,member price,,Horizon,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:49:03.910986,996534388,Amy's Entrée,,,,5.99,member price,,Amy's,2026-03-04,2026-03-10,Frozen
+2026-03-04T15:49:04.540443,996534407,Sensible Portions Veggie Straws or Chips,,,2 for,7.0,member price,,Sensible Portions,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:04.858652,996534750,Autumn Crisp Green or Red Seedless Grapes,,,,4.99,lb,,,2026-03-04,2026-03-10,Produce
+2026-03-04T15:49:05.411531,996534855,Jose Cuervo,,,,10.99,ea member price,,Jose Cuervo,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:49:05.943672,996534462,Yoplait Fridge Pack,EARN 4X POINTS,,,3.99,ea member price,,Yoplait,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:49:06.272472,996534459,FISH FILLET Sandwich,,,,5.0,ea,,,2026-03-04,2026-04-02,Deli & Prepared Foods
+2026-03-04T15:49:06.652330,996534468,Trans-Ocean Simply Surimi Selections,,,,4.69,ea member price,,Trans-Ocean,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:49:07.182651,996534465,Horizon Organic Milk,,,,5.99,member price,,Horizon,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:49:07.700393,996534751,Signature SELECT® Frozen Potatoes,EARN 4X POINTS,,,3.99,member price,,Signature SELECT®,2026-03-04,2026-03-10,Frozen
+2026-03-04T15:49:08.417783,996534753,Lemon,,,,0.99,ea,,,2026-03-04,2026-03-10,Produce
+2026-03-04T15:49:08.756777,996534581,Nature Made Vitamins,"EARN 4X POINTS, BUY 1 GET 1 FREE When you Buy 2 Member Price",,,,,,Nature Made,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:49:09.338363,996534502,Dove Bar Soap,EARN 4x POINTS,,,11.99,member price,,Dove,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:49:09.841217,996534529,Dial Liquid Hand Soap,Earn 4x POINTS,,2 /,6.0,when you buy 2,7.0,Dial,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:49:10.539148,996534543,Playtex Tampons,EARN 4X POINTS,,,7.99,ea,9.99,Playtex,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:49:11.109493,996534544,Benadryl Allergy Relief,EARN 4x POINTS,,,8.99,member price,,Benadryl,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:49:11.668020,996534551,Tylenol Pain Relief,,,,15.99,member price,,Tylenol,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:49:12.116638,996534564,RXBAR,EARN 4X POINTS,,3 for,5.0,member price,,RxBars,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:12.811616,996534589,Premier Protein,EARN 4X POINTS,,,9.99,member price,,Premier Protein,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:49:13.169884,996534614,Quest Bars,EARN 4X POINTS,,,9.99,member price,,Quest,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:13.689489,996534601,Zyrtec Allergy Relief,EARN 4x POINTS,,,24.99,member price,,Zyrtec,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:49:14.214790,996534602,Swiffer Refills,EARN 4x POINTS,,,9.99,ea,11.99,Swiffer,2026-03-04,2026-03-10,Household
+2026-03-04T15:49:14.761469,996534745,Fresh Halibut Portion,,,,10.99,ea member price,,,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:49:15.209888,996534747,Cucumber,,,,0.99,ea,,,2026-03-04,2026-03-10,Produce
+2026-03-04T15:49:15.755105,996534748,GT's Kombucha,EARN 2x POINTS,,2 for,6.0,member price,,GT's Kombucha,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:49:16.281622,996534754,Snapple Tea,EARN 4x POINTS,,,5.99,member price,,Snapple,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:49:16.684723,996534797,Panera Mac & Cheese Bowl,,,,9.99,ea member price,,Panera,2026-03-04,2026-03-10,Deli & Prepared Foods
+2026-03-04T15:49:17.019999,996534806,Open Nature® Fin Fish,,,,10.99,ea member price,,OPEN NATURE®,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:49:17.724322,996534833,Prego Pasta Sauce,,,,1.99,ea member price,,Prego,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:49:18.304153,996534843,DiGiorno Rising Crust or Hand Tossed Pizza,,,,4.99,ea member price,,DiGiorno,2026-03-04,2026-03-10,Frozen
+2026-03-04T15:49:18.683177,996534799,Philadelphia Cream Cheese,,,,2.49,ea member price,,PHILADELPHIA,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:49:19.183257,996534815,Ball Park Hot Dog or Hamburger Buns,,,,2.99,ea member price,,Ball Park,2026-03-04,2026-03-10,Bakery
+2026-03-04T15:49:19.560824,996534821,"Activia Dailies 8-pack, 3.1-oz. Dannon Activia Yogurt 12-pack, 4-oz. Danimals Smoothies 12-pack, 3.1-oz.",EARN 4x POINTS,,,4.99,ea member price,,Activia | Dannon | Danimals,2026-03-04,2026-03-10,Dairy & Eggs
+2026-03-04T15:49:19.902148,996534823,Guerrero Riquisimas Flour Tortillas,,,,4.99,ea member price,,Guerrero,2026-03-04,2026-03-10,Bakery
+2026-03-04T15:49:20.379726,996534842,Tate's Bake Shop Cookies 5.5 to 7-oz. Nabisco Family Size Ritz Crackers 17.8 to 20.5-oz. Nutter Butter Wafers or Family Size Cookies 10.5 to 16-oz.,,,,3.99,ea member price,,Tate's | Nabisco,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:20.745652,996534866,Nabisco Family Size Chips Ahoy! Cookies,,,,3.49,ea member price,,Nabisco,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:21.408120,996534992,Gatorade,,,,1.69,ea member price,,Gatorade,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:49:21.968906,996535037,Starburst Jelly Beans,,,2 for,9.0,member price,,Starbursts,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:22.581929,996535042,KIND Bar,,,5 for,5.0,member price,,Kind,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:22.988291,996535064,Nerds Clusters Candy,EARN 4X POINTS,,,3.49,member price,,Nerds,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:23.564867,996535069,Lindor Truffle Candy,,,,8.99,member price,,Lindor,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:23.870575,996535096,think! Protein Bars,,,,9.99,member price,,think!,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:24.302869,996535138,Premier Protein Powder,,,,27.99,member price,,Premier Protein,2026-03-04,2026-03-17,Health & Wellness
+2026-03-04T15:49:24.670859,996535085,Easter Squishmallow,25% OFF Member Price,,,,,,,2026-03-04,2026-03-10,Other
+2026-03-04T15:49:25.266535,996535086,Boost Shakes,,,,11.99,member price,,Boost,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:49:25.809176,996535101,Signature SELECT® Spring Bubbles or Chalk,25% OFF Member Price,,,,,,Signature SELECT®,2026-03-04,2026-03-10,Household
+2026-03-04T15:49:26.407097,996535129,Air Wick Plug-In Refills,BUY 1 GET 1 FREE When you Buy 2 Member Price,,,,,,Air Wick,2026-03-04,2026-03-10,Household
+2026-03-04T15:49:27.038298,996534344,Signature SELECT® Pork Shoulder Country Style Ribs or Blade Steak,,,,5.0,member price,,Signature SELECT®,2026-03-06,2026-03-06,Meat & Seafood
+2026-03-04T15:49:27.591541,996534849,Signature SELECT® refreshe® Purified Drinking Water,,,,3.99,ea member price,,Signature SELECT®,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:49:27.962939,996535121,Febreze Air Freshener,"Buy 2 Save $3.50 with your Member Account, EARN 4x POINTS",,,,,,Febreze,2026-03-04,2026-03-10,Household
+2026-03-04T15:49:28.359450,996534346,SToK Cold Brew,EARN 4x POINTS,,,4.99,member price,,Stok,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:49:28.697439,996534348,Monster Ultra,EARN 4x POINTS,,3 for,5.0,member price,,Monster,2026-03-04,2026-03-10,Beverages
+2026-03-04T15:49:29.116253,996534496,Crest Toothpaste 3.3 to 5.1-oz. Scope Mouthwash 33.8-oz.,EARN 4X POINTS,,,6.99,member price,,Crest,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:49:29.846244,996534195,Oscar Mayer Deli Fresh Family Pack Lunchmeat,,,,5.0,ea member price,,Oscar Mayer,2026-03-06,2026-03-06,Meat & Seafood
+2026-03-04T15:49:30.434152,996534505,Dove Shampoo or Conditioner,EARN 4x POINTS,,,6.99,member price,,Dove,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:49:30.897266,996534406,Biscoff Sandwich Cookies,,,,3.99,member price,,Biscoff,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:31.588653,996535093,Signature SELECT® Food Storage,,,2 for,7.0,member price,,Signature SELECT®,2026-03-04,2026-03-10,Household
+2026-03-04T15:49:32.113719,996534513,Tresemmé Shampoo or Conditioner,EARN 4x POINTS,,,6.99,member price,,TRESemmé,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:49:32.511132,996534150,Signature SELECT® Autumn Crisp Grapes 2-lb. Mandarins 3-lb.,,,,5.0,ea member price,,Signature SELECT®,2026-03-06,2026-03-06,Produce
+2026-03-04T15:49:33.151027,996535141,Optimum Nutrition Protein Powder,EARN 4x POINTS,,,27.99,member price,,Optimum Nutrition,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:49:33.457583,996534060,Cookies,,,,4.99,member price,,,2026-03-04,2026-03-10,Bakery
+2026-03-04T15:49:33.768887,996534356,Fresh Pass,5% off,,,,,,,2026-03-04,2026-03-10,Other
+2026-03-04T15:49:34.272272,996535026,Safeway for u,,,,,,,,2026-03-04,2026-03-10,Other
+2026-03-04T15:49:34.873529,996534415,Jackson's Sweet Potato Chips,EARN 2x POINTS,,2 for,7.0,member price,,Jackson's,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:35.548996,996534178,Signature SELECT® Soup,EARN 4x POINTS,,,5.0,ea member price,,Signature SELECT®,2026-03-06,2026-03-06,Pantry
+2026-03-04T15:49:35.929333,996534160,Chicken Wings or Reser's American Classics Salad,,,,5.0,member price,,Reser's,2026-03-06,2026-03-08,Deli & Prepared Foods
+2026-03-04T15:49:36.383532,996535142,Happy Baby Pouch,,,3 for,5.0,member price,,Happy Baby,2026-03-04,2026-03-10,Pantry
+2026-03-04T15:49:37.022487,996533972,Open Nature® Lamb Loin Chops,,,,9.99,lb member price,,OPEN NATURE®,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:49:37.660411,996534825,"Keebler Sandwich Crackers 8-pack, 1.38-oz. Pringles Chips 5.2 to 5.57-oz.",EARN 4x POINTS,,,1.99,ea member price,,Keebler | Pringles,2026-03-04,2026-03-10,Snacks
+2026-03-04T15:49:38.206929,996533992,Hormel Pepperoni Pillow Pack,EARN 4x POINTS,,,3.99,ea member price,,Hormel,2026-03-04,2026-03-10,Meat & Seafood
+2026-03-04T15:49:38.572348,996535185,Pharmacy,,,,,,,,2026-03-04,2026-03-10,Health & Wellness
+2026-03-04T15:49:38.903812,996534562,Venus Glide Razor,,,,12.99,ea,15.99,Venus,2026-03-04,2026-03-10,Personal Care
+2026-03-04T15:49:39.369892,996535098,Tuscany Jar Candle,,,,9.99,member price,,Tuscany Candle,2026-03-04,2026-03-10,Household
+2026-03-04T15:49:39.978643,996535114,Rubbermaid Take-Alongs Food Storage,,,,5.99,member price,,Rubbermaid,2026-03-04,2026-03-10,Household

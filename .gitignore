@@ -1,4 +1,2 @@
 .env
-seen_publications.txt
-safeway_prices.csv
 temp.py
