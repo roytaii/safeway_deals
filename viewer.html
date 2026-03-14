@@ -253,13 +253,14 @@
 <h2>Safeway WeeklyAd Viewer</h2>
 <p style="font-size:0.82rem; color:#999; margin-top:0.25rem; margin-bottom:1.25rem;">📍 Berkeley, CA — Shattuck Ave</p>
   
-<div id="sticky-header">
 <div class="status-row">
   <button class="status-btn on" id="btn-active" onclick="toggleStatus('active')">Active</button>
   <button class="status-btn" id="btn-expired" onclick="toggleStatus('expired')">Expired</button>
   <div class="status-divider"></div>
   <button class="status-btn friday-btn" id="btn-friday" onclick="toggleFriday()">$5 Fridays Only</button>
 </div>
+
+<div id="sticky-header">
 <div class="chip-label">Category</div>
 <div class="chip-row" id="chip-row">
   <button class="chip all-chip active" data-cat="__all__" onclick="chipClick(this)">All</button>
@@ -311,7 +312,10 @@
   fetch('deals.json')
     .then(r => r.json())
     .then(json => {
-      data = json;
+      const today = new Date(); today.setHours(0,0,0,0);
+      const all = [...(json.active || []), ...(json.expired || [])];
+      data.active  = all.filter(i => new Date(i.end_date) >= today);
+      data.expired = all.filter(i => new Date(i.end_date) <  today);
       buildChips();
       render();
     })
