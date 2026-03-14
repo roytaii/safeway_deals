@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
-  <title>Sweet Sweet Deals</title>
+  <title>Safeway WeeklyAd Viewer</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
@@ -29,6 +29,8 @@
       display: flex;
       gap: 0.5rem;
       margin-bottom: 0.875rem;
+      flex-wrap: wrap;
+      align-items: center;
     }
 
     .status-btn {
@@ -44,6 +46,14 @@
       color: #666;
     }
     .status-btn.on { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+    .status-btn.friday-btn.on { background: #b45309; color: #fff; border-color: #b45309; }
+
+    .status-divider {
+      width: 1px;
+      height: 1.2rem;
+      background: #d0cfc9;
+      margin: 0 0.25rem;
+    }
 
     /* Category chips */
     .chip-label {
@@ -86,54 +96,217 @@
       border-color: #1a1a1a;
     }
 
-    /* List */
-    ul { list-style: none; }
+    .friday-badge {
+      display: inline-block;
+      background: #fef3c7;
+      color: #92400e;
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 0.1rem 0.45rem;
+      border-radius: 999px;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+      white-space: nowrap;
+      letter-spacing: 0.02em;
+    }
 
+    /* Toolbar */
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+    .view-toggle {
+      display: flex;
+      gap: 0.25rem;
+    }
+    .view-btn {
+      border: 1.5px solid #d0cfc9;
+      background: #fff;
+      border-radius: 6px;
+      padding: 0.3rem 0.55rem;
+      cursor: pointer;
+      font-size: 1rem;
+      color: #888;
+      transition: all 0.15s;
+      line-height: 1;
+    }
+    .view-btn.on { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+
+    /* List view (default) */
+    ul { list-style: none; }
     li {
+      display: flex;
+      align-items: center;
+      padding: 0.65rem 0;
+      border-bottom: 1px solid #e6e5e0;
+      gap: 0.75rem;
+    }
+    .thumb-wrap {
+      width: 52px;
+      height: 52px;
+      flex-shrink: 0;
+      cursor: zoom-in;
+    }
+    .thumbnail {
+      width: 52px;
+      height: 52px;
+      object-fit: contain;
+      border-radius: 4px;
+    }
+    .item-body {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      padding: 0.65rem 0;
-      border-bottom: 1px solid #e6e5e0;
+      flex: 1;
+      min-width: 0;
       gap: 1rem;
     }
-
-    .name { flex: 1; font-size: 0.93rem; line-height: 1.4; }
+    .name { flex: 1; font-size: 0.93rem; line-height: 1.4; min-width: 0; }
     .sale-desc { font-size: 0.77rem; color: #888; margin-top: 0.15rem; }
-
     .right { text-align: right; white-space: nowrap; }
     .price { font-family: 'Lato', monospace; font-size: 0.9rem; font-weight: 500; }
     .expiry { font-size: 0.72rem; color: #aaa; margin-top: 0.15rem; }
 
-    .count {
-      font-size: 0.78rem;
-      color: #999;
-      margin-bottom: 0.5rem;
-      font-variant-numeric: tabular-nums;
+    /* Grid view */
+    ul.grid-view {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+      gap: 0.75rem;
+    }
+    ul.grid-view li {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 0;
+      border-bottom: none;
+      border: 1px solid #e6e5e0;
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+      gap: 0;
+    }
+    ul.grid-view .thumb-wrap {
+      background: #f9f8f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 130px;
+    }
+    ul.grid-view .thumbnail {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 0;
+    }
+    ul.grid-view .item-body {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.2rem;
+      padding: 0.5rem 0.6rem 0.6rem;
+    }
+    ul.grid-view .right { text-align: left; white-space: normal; }
+    ul.grid-view .name { font-size: 0.8rem; }
+    ul.grid-view .price { font-size: 0.85rem; }
+
+    /* Lightbox */
+    #lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.72);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      cursor: zoom-out;
+    }
+    #lightbox.open { display: flex; }
+    #lightbox img {
+      max-width: min(520px, 90vw);
+      max-height: 80vh;
+      object-fit: contain;
+      border-radius: 10px;
+      box-shadow: 0 8px 48px rgba(0,0,0,0.4);
+      background: #fff;
+      padding: 1rem;
+    }
+    /* Sticky category header */
+    #sticky-header {
+      position: sticky;
+      top: 0;
+      background: #f5f4f0;
+      padding: 0.6rem 0 0.4rem;
+      z-index: 100;
+      transform: translateY(0);
+      transition: transform 0.25s ease, opacity 0.25s ease;
+    }
+    #sticky-header.hidden {
+      transform: translateY(-110%);
+      opacity: 0;
+      pointer-events: none;
     }
   </style>
 </head>
 <body>
 
-<h2>Deals Viewer</h2>
-
+<h2>Safeway WeeklyAd Viewer</h2>
+<p style="font-size:0.82rem; color:#999; margin-top:0.25rem; margin-bottom:1.25rem;">📍 Berkeley, CA — Shattuck Ave</p>
+  
+<div id="sticky-header">
 <div class="status-row">
   <button class="status-btn on" id="btn-active" onclick="toggleStatus('active')">Active</button>
   <button class="status-btn" id="btn-expired" onclick="toggleStatus('expired')">Expired</button>
+  <div class="status-divider"></div>
+  <button class="status-btn friday-btn" id="btn-friday" onclick="toggleFriday()">$5 Fridays Only</button>
 </div>
-
 <div class="chip-label">Category</div>
 <div class="chip-row" id="chip-row">
   <button class="chip all-chip active" data-cat="__all__" onclick="chipClick(this)">All</button>
 </div>
+</div>
 
 <div class="count" id="count"></div>
+<div class="toolbar">
+  <span></span>
+  <div class="view-toggle">
+    <button class="view-btn on" id="btn-list" onclick="setView('list')" title="List view">☰</button>
+    <button class="view-btn" id="btn-grid" onclick="setView('grid')" title="Grid view">⊞</button>
+  </div>
+</div>
 <ul id="list"></ul>
+
+<!-- Lightbox -->
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+</div>
 
 <script>
   let data = { active: [], expired: [] };
   const status = { active: true, expired: false };
   const selectedCats = new Set(['__all__']);
+  let fridayOnly = false;
+  let viewMode = 'list';
+
+  function setView(mode) {
+    viewMode = mode;
+    document.getElementById('btn-list').classList.toggle('on', mode === 'list');
+    document.getElementById('btn-grid').classList.toggle('on', mode === 'grid');
+    const ul = document.getElementById('list');
+    ul.classList.toggle('grid-view', mode === 'grid');
+    render();
+  }
+
+  function openLightbox(src, alt) {
+    const lb = document.getElementById('lightbox');
+    document.getElementById('lightbox-img').src = src;
+    document.getElementById('lightbox-img').alt = alt;
+    lb.classList.add('open');
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
 
   fetch('deals.json')
     .then(r => r.json())
@@ -165,23 +338,18 @@
     const cat = btn.dataset.cat;
 
     if (cat === '__all__') {
-      // All chip - clear everything, activate only All
       selectedCats.clear();
       selectedCats.add('__all__');
     } else {
-      // Remove All if it was selected
       selectedCats.delete('__all__');
-      // Toggle this category
       if (selectedCats.has(cat)) {
         selectedCats.delete(cat);
-        // If nothing left, fall back to All
         if (selectedCats.size === 0) selectedCats.add('__all__');
       } else {
         selectedCats.add(cat);
       }
     }
 
-    // Sync visual state
     document.querySelectorAll('.chip').forEach(b => {
       b.classList.toggle('active', selectedCats.has(b.dataset.cat));
     });
@@ -195,9 +363,23 @@
     render();
   }
 
+  function toggleFriday() {
+    fridayOnly = !fridayOnly;
+    document.getElementById('btn-friday').classList.toggle('on', fridayOnly);
+    render();
+  }
+
   function formatPrice(item) {
     return [item.pre_price_text, item.sale_price, item.post_price_text]
       .filter(Boolean).join(' ') || item.regular_price || '—';
+  }
+
+  function formatExpiry(item) {
+    const today = new Date(); today.setHours(0,0,0,0);
+    const end = new Date(item.end_date);
+    if (item.friday_only) return `Fri ${item.end_date}`;
+    if (end < today) return `expired ${item.end_date}`;
+    return `expires ${item.end_date}`;
   }
 
   function sortAlpha(arr) {
@@ -210,6 +392,10 @@
       ...(status.expired ? sortAlpha(data.expired) : []),
     ];
 
+    if (fridayOnly) {
+      items = items.filter(i => i.friday_only);
+    }
+
     if (!selectedCats.has('__all__')) {
       items = items.filter(i => selectedCats.has(i.category));
     }
@@ -217,20 +403,44 @@
     const count = document.getElementById('count');
     count.textContent = items.length ? `${items.length} deal${items.length !== 1 ? 's' : ''}` : '';
 
-    document.getElementById('list').innerHTML = items.length
+    const ul = document.getElementById('list');
+    ul.classList.toggle('grid-view', viewMode === 'grid');
+
+    ul.innerHTML = items.length
       ? items.map(item => `
           <li>
-            <span class="name">
-              ${item.name || '—'}
-              ${item.sale_desc ? `<div class="sale-desc">${item.sale_desc}</div>` : ''}
-            </span>
-            <span class="right">
-              <div class="price">${formatPrice(item)}</div>
-              <div class="expiry">expires ${item.end_date}</div>
-            </span>
+            ${item.image_url
+              ? `<div class="thumb-wrap" onclick="openLightbox('${item.image_url}', '${(item.name||'').replace(/'/g,"\\'")}')">
+                   <img class="thumbnail" src="${item.image_url}" alt="${item.name}" loading="lazy">
+                 </div>`
+              : ''}
+            <div class="item-body">
+              <span class="name">
+                ${item.name || '—'}
+                ${item.friday_only ? '<span class="friday-badge">$5 Friday</span>' : ''}
+                ${item.sale_desc ? `<div class="sale-desc">${item.sale_desc}</div>` : ''}
+              </span>
+              <span class="right">
+                <div class="price">${formatPrice(item)}</div>
+                <div class="expiry">${formatExpiry(item)}</div>
+              </span>
+            </div>
           </li>`).join('')
       : '<li><span class="name" style="color:#aaa">No items found.</span></li>';
   }
+
+  // Hide on scroll down, show on scroll up
+  let lastScrollY = window.scrollY;
+  window.addEventListener('scroll', () => {
+    const header = document.getElementById('sticky-header');
+    const currentY = window.scrollY;
+    if (currentY > lastScrollY && currentY > 80) {
+      header.classList.add('hidden');
+    } else {
+      header.classList.remove('hidden');
+    }
+    lastScrollY = currentY;
+  }, { passive: true });
 </script>
 </body>
 </html>

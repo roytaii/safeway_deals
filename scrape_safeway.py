@@ -77,7 +77,8 @@ else:
             "regular_price": data.get("original_price"),
             "brand": data.get("brand"),
             "start_date": data.get("valid_from"),
-            "end_date": data.get("valid_to")
+            "end_date": data.get("valid_to"),
+            "image_url": data.get("image_url")
             }
             is_duplicate = (
                 (existing_df["name"] == row["name"]) &
