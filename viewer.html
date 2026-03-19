@@ -326,7 +326,12 @@
 
   function buildChips() {
     const all = [...data.active, ...data.expired];
-    const cats = [...new Set(all.map(i => i.category).filter(Boolean))].sort();
+    const VALID = new Set([
+      "Produce","Meat & Seafood","Dairy & Eggs","Bakery","Deli & Prepared Foods",
+      "Frozen","Pantry","Snacks","Beverages","Health & Wellness",
+      "Personal Care","Household","Floral","Other"
+    ]);
+    const cats = [...new Set(all.map(i => i.category).filter(c => c && VALID.has(c)))].sort();
     const row = document.getElementById('chip-row');
     cats.forEach(c => {
       const btn = document.createElement('button');

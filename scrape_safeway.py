@@ -157,6 +157,9 @@ def categorize_batch(df, uncategorized, batch_size=50):
             if l.strip() and l.strip()[0].isdigit()
         ]
 
+        # Validate — reject anything not in the known category list
+        lines = [l if l in set(CATEGORIES) else "Other" for l in lines]
+
         if len(lines) != len(batch):
             print(f"  ⚠️ Warning: expected {len(batch)} results, got {len(lines)} — filling remainder with 'Other'")
             lines += ["Other"] * (len(batch) - len(lines))
