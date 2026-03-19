@@ -94,6 +94,8 @@ else:
 
         if rows: 
             df = pd.DataFrame(rows)
+            df["category"] = None
+            df = df[["timestamp","id","name","sale_desc","SKU","pre_price_text","sale_price","post_price_text","regular_price","brand","start_date","end_date","category","image_url"]]
             if not os.path.exists(filename):
                 df.to_csv(filename, index=False, quoting=csv.QUOTE_ALL)
             else:
