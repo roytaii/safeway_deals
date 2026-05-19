@@ -224,7 +224,7 @@ Respond with only a numbered list of category names.
         df.loc[batch.index, "category"] = lines
 
         # write incremental safety checkpoint
-        df.to_csv("safeway_prices.csv", index=False)
+        df.to_csv("safeway_prices.csv", index=False, quoting=csv.QUOTE_ALL)
 
         time.sleep(2.5 + random.uniform(0, 1.5))
 
