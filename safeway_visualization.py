@@ -1,7 +1,11 @@
 import pandas as pd
 import json
+import csv
 
-df = pd.read_csv("safeway_prices.csv")
+with open("safeway_prices.csv", "r") as f:
+    reader = csv.reader(f)
+    rows = list(reader)
+df = pd.DataFrame(rows[1:], columns=rows[0])
 today = pd.Timestamp('today').normalize()
 df['end_date'] = pd.to_datetime(df['end_date'])
 df['start_date'] = pd.to_datetime(df['start_date'])
