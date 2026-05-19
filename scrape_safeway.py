@@ -135,6 +135,10 @@ if rows:
     if not os.path.exists(filename):
         df_new.to_csv(filename, index=False, quoting=csv.QUOTE_ALL)
     else:
+        with open(filename, "rb+") as f:
+            f.seek(-1, 2)
+            if f.read(1) != b"\n":
+                f.write(b"\n")
         df_new.to_csv(filename, mode="a", header=False, index=False, quoting=csv.QUOTE_ALL)
 
 # mark publication as processed
